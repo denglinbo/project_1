@@ -1,0 +1,404 @@
+body {
+	padding:0;
+	margin:0;
+	font-size: 12px;
+	font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #fff;
+}
+.nav_ul li img{
+		display: inline-block;
+		height:44px;
+	}
+@media (min-width: 768px){
+	.watch_chose_nav {
+	    height: 90px;
+	}
+	.watch_same_left{
+		float: left;
+	}
+	.watch_same_right{
+		float: right;
+	}
+	.watch_same {
+		width: 49%;
+		background-color: #f2f2f2;
+		overflow: hidden;
+	}
+
+	/*图片展示公用部分---底部图配文*/
+	.watch_bottom_stlye .img {
+		height: 700px;
+		background-size: auto 700px;
+		background-color: #fff;
+	}
+	.watch_bottom_stlye {
+		width: 100%;
+		height: 810px
+	}
+
+	.nike_div,.hermes_div.watch_editin{
+		height: 515px;
+	}
+	.footer {
+		margin-top: 70px;
+		height: 250px;
+	}
+
+	.series2_img {
+		background-image: url(../watch_image/背景1.jpg);
+	    background-size: 1800px 678px;
+		height: 678px;
+	}
+	/*watch_editin区域*/
+	.editin_img {
+		background-image: url(../watch_image/背景4.jpg);
+		background-size: auto 500px;
+		height: 500px;
+	}
+	/*背景Watch Series1区域*/
+	.series1_img {
+		background-image: url(../watch_image/背景5.jpg);
+		background-size: auto 500px;
+		height: 500px;
+	}
+	/*互动式表廊区域*/
+	.watch1_img {
+	    background-image: url(../watch_image/背景6.jpg);
+	    background-size: auto 500px;
+		height: 500px;
+	}
+
+	/*互动式表廊区域及表款比较区域*/
+	.watch_style{
+		width: 100%;
+		background-color: #f2f2f2;
+		margin-top: 45px;
+	}
+	/*两张造型图片区域*/
+	.stlye_img1 {
+		background-image: url(../watch_image/背景7.jpg);
+	}
+	.stlye_img2 {
+		background-image: url(../watch_image/背景8.jpg);
+	}
+	/*表款比较区域*/
+	.watch2_img {
+	    background-image: url(../watch_image/背景9.jpg);
+	    height: 500px;
+	}
+}
+
+@media (max-width: 767px) {
+	.watch_chose_nav {
+	    height: 90px;
+	    overflow-x: auto;
+	}
+	.series2_img {
+		background-image: url(../watch_image/背景1_小.jpg);
+		height:900px;
+	}
+	/*watch_editin区域*/
+	.editin_img {
+		background-image: url(../watch_image/背景4_小.jpg);
+		height: 545px;
+	}
+	/*背景Watch Series1区域*/
+	.series1_img {
+		background-image: url(../watch_image/背景5_小.jpg);
+		height: 545px;
+	}
+	/*互动式表廊区域*/
+	.watch1_img {
+	    background-image: url(../watch_image/背景6_小.jpg);
+	    height: 300px;
+	}
+	/*两张造型图片区域*/
+	.stlye_img1 {
+		background-image: url(../watch_image/背景7_小.jpg);
+	}
+	.stlye_img2 {
+		background-image: url(../watch_image/背景8_小.jpg);
+	}
+	/*表款比较区域*/
+	.watch2_img {
+	    background-image: url(../watch_image/背景9_小.jpg);
+	    background-size: auto 500px;
+		height: 500px;
+	}
+	/*图片展示公用部分---底部图配文*/
+	.watch_bottom_stlye .img {
+		height: 500px;
+		background-size: auto 500px;
+		background-color: #fff;
+	}
+	.watch_bottom_stlye {
+		width: 100%;
+	}
+
+	.watch_Hermes {
+		display: inline;
+	}
+	.watch_same{
+		width: 100%;
+        background-color: #f2f2f2;
+		    margin-top: 0.5rem;
+	}
+}
+
+.nav_all{
+	height: 84px;
+	width: 100%;
+}
+
+/*图片展示公用部分---图配文*/
+.logo{
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.img{
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+	.series2_img  {
+	height: 750px;
+    background-position-y: 80%;
+	}
+}
+.text_content {
+	width:100%;
+	padding-top: 25px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+.text_content p {
+	padding-top: 10px;
+	font-size:  18px !important;
+	text-align: center;
+}
+
+.text_content p a {
+	font-size:  20px !important;
+	color: #0070c9;
+}
+
+/*图片展示公用部分---大横幕*/
+.huge_context{
+	background: #fff;
+	width:100%;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+.huge_context .p1 {
+	color: #333;
+	text-align: center;
+	font-size: 34px;
+}
+.huge_context .p2 {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.huge_context .p2 a {
+	font-size: 19px;
+	color: #0070c9; 
+}
+.huge_context .p2 img {
+	padding-bottom:9px;
+}
+@media screen and (max-width: 768px) {
+	.huge_context .p1 {
+		font-size: 22px;
+	}
+	.huge_context .p2 {
+		padding-bottom: 20px !important;
+	}
+	.huge_context .p2 a {
+    font-size: 16px;
+    color: #0070c9;
+	}
+	.huge_context img {
+		width: 22px;
+	}
+}
+
+/* watch选择区域 */
+.watch_chose {
+	padding: 10px 0px;
+	background-color:#fbfbfb;
+}
+.watch_ul {
+	height: 90px;
+	width: 768px;
+}
+.watch_chose_nav {
+	margin: 0 auto;
+	width: 768px;
+	overflow-y: hidden;
+}
+@media screen and (max-width: 768px) {
+	.watch_chose {
+		padding-bottom: 0;
+	}
+	.watch_chose_nav {
+		width:100%;
+		height:110px;
+		overflow-x:scroll;
+		padding-bottom: 0;
+	}
+}
+.watch_ul li {
+	text-align: center;
+	width: 72px;
+	height: 89px;
+	float: left;
+	list-style: none;
+	margin:0 6.5px;
+}
+.watch_ul li p{
+	color: #333;
+	width: 72px;
+	text-align: center;
+}
+.watch_ul li p:hover {
+	color: #0070c9;
+}
+
+/*背景Watch Series2区域*/
+.watch_series2 {
+	background-color: #f2f2f2;
+	width: 100%;
+}
+
+.series2_text_content p{
+	padding-top: 25px
+}
+
+.series2_logo {
+	height: 71px;
+	background-image: url(../watch_image/watch1.png);
+}
+
+/*watch_nike+watch_Hermes两张图区域*/
+.watch_Hermes {
+	width: 100%;
+	margin-top: 45px;
+	height: 515px;
+}
+
+.nike_img {	
+	background-image: url(../watch_image/背景2.jpg);
+	background-size: 452px 433px;
+	height: 452px;
+}
+.hermes_img {
+	background-image: url(../watch_image/背景3.jpg);
+	background-size: 334px 400px;
+	height: 400px;
+}
+.nike_logo {
+	height: 50px;
+	background-image: url(../watch_image/nike.png);
+}
+.hermes_logo {
+	height: 50px;
+	background-image: url(../watch_image/hermes.png);
+}
+
+/*watch_editin区域*/
+.watch_editin {
+	width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    margin-top:45px;
+}
+@media screen and (max-width: 768px) {
+	.watch_editin {
+		margin-top:0.5rem;
+	}
+}
+.editin_logo {
+	height: 71px;
+	background-image: url(../watch_image/edition.png);
+}
+
+/*背景Watch Series1区域*/
+.watch_series1 {
+	width: 100%;
+	background-color: #f2f2f2;
+	margin-top: 45px;
+}
+@media screen and (max-width: 768px) {
+	.watch_series1 {
+		margin-top:0.5rem;
+	}
+}
+.series1_text_content {
+	padding-bottom: 25px;
+}
+.series1_logo {
+	height: 71px;
+	background-image: url(../watch_image/series.png);
+}
+
+/*两张watchOS图片区域*/
+.watchOS_bacground {
+	width: 100%;
+	height: 740px;
+}
+.watchO_img1 {
+	background-image: url(../watch_image/背景10.jpg);
+}
+.watchO_img2 {
+	background-image: url(../watch_image/背景11.jpg);
+}
+
+/*免费送货区域*/
+.footer img{
+	margin: 0 auto;
+}
+.footer,.footer .p1,.footer .p2{
+	background-color: #f2f2f2;
+}
+.footer p {
+	margin: 0 auto;
+}
+.footer .p2 a {
+	padding-top: 10px;
+}
+.footer .p2{
+	background-color: #f2f2f2;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+#door ,#go{
+	background-color: #f2f2f2;
+}
+
+/*声明区域*/
+.watch_declaration {
+	/*width: 100%;*/
+	height: 88px;
+	background-color:  #f2f2f2;
+}
+.declaration_container {
+	max-width:1024px;
+	width: 95%;
+	margin: 0 auto;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+.declaration_p {
+	padding-top: 14px;	
+	width: 100%;
+}
+.declaration_p p {
+	color: #9e9e9e;
+	margin-bottom: 5px;
+}
+
+

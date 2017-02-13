@@ -1,0 +1,928 @@
+body {
+	min-width:1024px;
+	padding:0;
+	margin:0;
+    line-height: 1.8;
+	font-family: "微软雅黑";
+	font-weight:300;
+	font-size: 12px
+}
+* {
+	padding:0;
+	margin:0;
+}
+.img_hidden {
+	display:none;
+}
+.nav_ul li img{
+		display: inline-block;
+		height:44px;
+	}
+/*顶部导航栏区域*/
+.top_nav {
+	background: #444;
+	line-height: 1;
+	width: 100%;
+	right: 0;
+	height: 44px;
+}
+.top_nav_text{
+	color: #a8a8aa;
+	font-size: 12px;
+	display: block;
+	line-height: 44px;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-align: right;
+	max-width: 976px;
+	margin: 0 auto;
+	padding:0px 16px;
+}
+/*主导航栏区域*/
+.pc_hidden {
+	background-color:#000;
+	position:absolute;
+	top:44px;
+	width:100%;
+	opacity:1;
+	display:none;
+}
+.pc_hidden ul {
+	width:100%;
+	list-style:none;
+    line-height: 20px;
+    padding-bottom: 20px;
+    margin-bottom:0;
+}
+.pc_hidden li {
+	height:30px;
+	line-height:30px;
+	width: 65%;
+    margin: 0 auto;
+    padding:2px 0;
+    border-bottom:1px solid #9e9e9e;
+}
+.pc_hidden ul li a {
+	font-size:12px;
+	color:#fff;
+	display: inline-block;
+    width: 100%;
+    font-weight:100;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav_header {
+	position: absolute;
+	z-index: 1;
+	width: 100% ;
+	height: 44px ;
+	background-color: rgba(0,0,0,1);
+	opacity: 0.8;
+	margin: 0 auto;
+}
+
+.nv_content{
+	margin: 0 auto;
+	width: 1000px;
+	padding: 0;
+}
+.navbar-brand {
+	position: relative;
+	z-index: 2;
+	float: right;
+	padding: 0px 10px;
+	height: 44px;
+}
+.nav_ul {
+	list-style: none;
+	cursor: default;
+	width: auto;
+	height: 44px;
+	margin: 0;
+	text-align: center;
+}
+#logo{
+	padding-left: 0px;
+}
+#bag{
+	padding-right: 0;
+}
+
+.nav_ul li {
+	height: 44px;
+}
+.nav_ul li a img:hover {
+	opacity: 0.7;
+}
+@media (max-width: 1000px) {
+	.nv_content{
+		margin: 0 auto;
+		width: 768px;
+	}
+	.top_nav_text{
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 767px) {
+	.nv_content,.top_nav_text{
+		width: 100%;
+	}
+
+	.nav_ul{
+		position: relative;
+		z-index: 1;
+		height: 44px;
+		text-align: center;
+		
+	}
+	.visible-xs {
+		display: block;
+		margin-bottom:0;
+	}
+	.nav_lleft {
+		position:relative;
+	}
+	.nav_lleft:hover .pc_hidden {
+		display:block !important;
+	}
+	.item {
+		display: none;
+	}
+    #navbar-toggle:checked ~ .item {
+    	display: block;
+    }
+
+	label[for=navbar-toggle] {
+		position: absolute;
+		z-index: 4;
+		padding: 12px 10px;
+		height: 44px;
+	}
+
+	label[for=navbar-toggle]::before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 3px;
+		background-color: #fff;
+		box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+		z-index: 3
+	}
+}
+
+@media (min-width: 768px) {
+	/*.nav_ul {*/
+		/*text-align: center;*/
+	/*}*/
+	.nav_ul li {
+		display: inline-block;
+		    width: 10%;
+	}
+.visible-xs {
+	display: none;
+}
+/*次导航区域*/
+.sec_nav {
+	margin-top:44px;
+	background-color:#f6f6f6;
+}
+.sec_nav ul {
+	list-style:none;
+	text-align:center;
+	width:900px;
+	margin:0 auto;
+}
+.sec_nav ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.img_hidden {
+	width:200px;
+}
+
+.sec_nav ul li {
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.sec_nav1 {
+	padding-top:10px;
+	padding-bottom:16px;
+}
+.sec_nav .span_bg {
+	display:inline-block;
+	width:60px;
+	height:55px;
+}
+.sec_nav .span_bg1 {
+	background:url(../img/mac1.svg) no-repeat center;
+}
+.sec_nav .span_bg2 {
+	background:url(../img/mac2.svg) no-repeat center;
+}
+.sec_nav .span_bg3 {
+	background:url(../img/mac3.svg) no-repeat center;
+}
+.sec_nav .span_bg4 {
+	background:url(../img/mac4.svg) no-repeat center;
+}
+.sec_nav .span_bg5 {
+	background:url(../img/mac5.svg) no-repeat center;
+}
+.sec_nav .span_bg6 {
+	background:url(../img/mac6.svg) no-repeat center;
+}
+.sec_nav .span_bg7 {
+	background:url(../img/mac7.svg) no-repeat center;
+}
+.sec_nav .span_bg8 {
+	background:url(../img/mac8.svg) no-repeat center;
+}
+.sec_nav .span_bg9 {
+	width:80px;
+	background:url(../img/mac9.svg) no-repeat center;
+}
+.sec_nav a {
+	color:#333;
+}
+.sec_nav a:hover {
+	color:#0070c9;
+	text-decoration:none;
+}
+/* 图片区域 */
+.mac_right1 {
+	display:none;
+}
+.pic {
+	margin-top:50px;
+	width:100%;
+}
+.mac {
+	max-width:1200px;
+	margin:0 auto;
+	display:flex;
+}
+.pic_1 {
+	position: relative;
+    top: 366px;
+    text-align: center;
+}
+.mac_right {
+	flex:1;
+}
+.pic span {
+	border:1px solid #f46c0e!important;
+    color:#f46c0e;
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.p1 {
+	font-size: 54px;
+    line-height: 1.0625;
+    margin-top: 20px;
+}
+.p2 {
+	font-size: 33px;
+}
+.p3 {
+	font-size:20px;
+}
+.p3 a {
+	color:#0070c9;
+	font-size:20px;
+}
+/* pro */
+.mac_pro {
+	max-width:1200px;
+	margin:0 auto;
+	display:flex;
+}
+.pro_left {
+	max-width:150px;
+	overflow: visible;
+	position: relative;
+	top:100px;
+}
+.pro_left .p1 {
+	width:500px;
+	white-space:nowrap;
+}
+.pro_left .p2{
+	width:500px;
+	white-space:nowrap;
+}
+.pro_left .p3{
+	width:500px;
+	white-space:nowrap;
+}
+.pro_right {
+	width:1;
+	z-index:-10;
+	overflow:hidden;
+}
+.pic_2 {
+    z-index: 99;
+    text-align:center;
+}
+/* air */
+.img4 {
+	margin-top:200px;
+}
+.mac_air {
+	max-width:1200px;
+	margin:0 auto;
+	display:flex;
+	overflow:hidden;
+}
+.air_right {
+	max-width:150px;
+	overflow: visible;
+	position: relative;
+	top:100px;
+	right: 280px;
+}
+.air_right .p1 {
+	width:500px;
+	white-space:nowrap;
+}
+.air_right .p2{
+	width:500px;
+	white-space:nowrap;
+}
+.air_right .p3{
+	width:500px;
+	white-space:nowrap;
+}
+.air_left {
+	width:1;
+	z-index:-10;
+	overflow:hidden;
+}
+/* imac */
+.imac {
+	max-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	text-align:center;
+}
+.imac .pic_2 {
+	width: 740px;
+    position: relative;
+    top: 114px;
+}
+/* 灰色区域*/
+.area {
+	width:100%;
+	height:120px;
+	background-color:#fbfbfb;
+}
+/* Mac 机型比较 */
+.compare {
+	margin-top:50px;
+}
+.compare_content {
+	width:980px;
+	margin:0 auto;
+	padding-top:92px;
+	padding-bottom:120px;
+	text-align:center;
+	border-bottom:1px solid #d6d6d6;
+}
+.compare_content .p1 {
+	font-size: 48px;
+    line-height: 1.10417;
+}
+.compare_content a {
+	font-size: 16px;
+    line-height: 1.8;
+    color: #0070c9;
+}
+.compare_content1 {
+	width:980px;
+	margin:0 auto;
+	padding-top:92px;
+	display:flex;
+	text-align:center;
+}
+.compare_content2 {
+	margin-bottom:80px;
+	flex:1;
+}
+.compare_content1 .p1 {
+	margin-top:10px;
+	font-size: 24px;
+    line-height: 1.1923;
+}
+.compare_content1 .p2 {
+	font-size: 15px;
+    line-height: 1.6;
+    max-width:800px;
+}
+.compare_content1 a {
+	font-size: 16px;
+    line-height: 1.4446;
+    font-weight: 400;
+    color:#0070c9;
+}
+/* Mac 配件 */
+.parts {
+	overflow:hidden;
+	background:linear-gradient(to bottom,#fcfcfc,#ececec);
+}
+.parts .p1 {
+	font-size: 48px;
+    line-height: 1.10417;
+}
+.parts a {
+	font-size: 16px;
+    line-height: 1.4446;
+    font-weight: 400;
+}
+.parts img {
+	width:100%;
+	margin:50px 0;
+}
+/* macOS和icloud区域 */
+.icloud {
+	padding-top:50px;
+	background-color:#fafafa;
+}
+.icloud_content {
+	width:800px;
+	margin:0 auto;
+	padding-top:92px;
+	text-align:center;
+}
+.icloud_content1 {
+	width:980px;
+	margin:0 auto;
+	padding-top:50px;
+}
+.icloud_row1 {
+	padding-left: 170px;
+	text-align:left;
+}
+.icloud_row1:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.icloud_content2 {
+	margin-bottom:80px;
+}
+.icloud_content1 .p1 {
+	margin-top:10px;
+	font-size: 40px;
+    line-height: 1.1;
+    font-weight: 100;
+    width: 340px;
+}
+.icloud_content1 .p2 {
+	font-size: 16px;
+    line-height: 1.8;
+    width: 340px;
+}
+.icloud_content1 a {
+	font-size: 16px;
+    line-height: 1.4446;
+    font-weight: 400;
+}
+/* 内置 App区域 */
+.set_in {
+	margin:50px 0;
+}
+.build_in .p1{
+	font-size: 45px;
+    font-weight: 100;
+    line-height: 1.1;
+	}    
+.build_in .p2 {
+	margin:0 auto;
+	font-size: 15px;
+    width: 735px;
+    line-height:25px;
+}
+.build_in .p2 a {
+	color:#0070c9;
+	font-size:15px;
+}
+.ul_top {
+	width:735px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.ul_top>li {
+	width:105px;
+}
+.build_in1 {
+	color:#333;
+	text-align:center;
+}
+.build_in1 .span_bg {
+	display:inline-block;
+	width:60px;
+	height:55px;
+}
+.build_in1 .span_bg1 {
+	background:url(../img/mac12.png) no-repeat center;
+}
+.build_in1 .span_bg2 {
+	background:url(../img/mac13.png) no-repeat center;
+}
+.build_in1 .span_bg3 {
+	background:url(../img/mac14.png) no-repeat center;
+}
+.build_in1 .span_bg4 {
+	background:url(../img/mac15.png) no-repeat center;
+}
+.build_in1 .span_bg5 {
+	background:url(../img/mac16.png) no-repeat center;
+}
+.build_in1 .span_bg6 {
+	background:url(../img/mac17.png) no-repeat center;
+}
+.build_in1 .span_bg7 {
+	background:url(../img/mac18.png) no-repeat center;
+}
+.build_in2,.major_2 {
+	max-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	text-align:center;
+	margin-top:50px;
+}
+.in_content {
+	text-align:left;
+}
+.build_in2 .img {
+	margin-top:50px;
+	width:92px;
+	height:97px;
+}
+.build_in2 .img1 {
+	background:url(../img/mac20.png) no-repeat center center;
+}
+.build_in2 .img2 {
+	background:url(../img/33.png) no-repeat center center;
+}
+.build_in2 .img3 {
+	background:url(../img/34.png) no-repeat center center;
+}
+.build_in2 .img4 {
+	background:url(../img/35.png) no-repeat center center;
+}
+.build_in2 .img5 {
+	background:url(../img/36.png) no-repeat center center;
+}
+.build_in2 .img6 {
+	background:url(../img/37.png) no-repeat center center;
+}
+.build_in2 .img7 {
+	background:url(../img/38.png) no-repeat center center;
+}
+.build_in2 .p1 {
+	margin-top: 25px;
+	font-size: 30px;
+    line-height: 1.2;
+    font-weight:100;
+}
+.build_in2 .p2 {
+	font-size: 15px;
+    line-height: 1.8;
+    color:#333;
+}
+.build_in2 a {
+	color:#0070c9;
+	font-size:15px;
+}
+/* 专业 App区域 */
+.major {
+	margin:50px 0;
+}
+.major_top .p1{
+	font-size: 45px;
+    font-weight: 100;
+    line-height: 1.1;
+	}    
+.major_top .p2 {
+	margin:0 auto;
+	font-size: 15px;
+    width: 735px;
+    line-height:25px;
+}
+.major_top .p2 a {
+	color:#0070c9;
+	font-size:15px;
+}
+.major_ul {
+	width:600px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.major_ul>li {
+	width: 120px;
+}
+.major_ul {
+	color:#333;
+	text-align:center;
+}
+.major_ul .span_bg {
+	display:inline-block;
+	width:60px;
+	height:55px;
+}
+.major_ul .span_bg1 {
+	background:url(../img/mac21.png) no-repeat center;
+}
+.major_ul .span_bg2 {
+	background:url(../img/mac22.png) no-repeat center;
+}
+.major_ul .span_bg3 {
+	background:url(../img/mac23.png) no-repeat center;
+}
+.major_ul .span_bg4 {
+	background:url(../img/mac24.png) no-repeat center;
+}
+.major_ul .span_bg5 {
+	background:url(../img/mac25.png) no-repeat center;
+}
+.major_2 {
+	margin-top:50px;
+}
+.major_2 .img {
+	margin-top:50px;
+	width:92px;
+	height:97px;
+}
+.major_2 .img1 {
+	background:url(../img/mac26.png) no-repeat center center;
+}
+.major_2 .img2 {
+	background:url(../img/40.png) no-repeat center center;
+}
+.major_2 .img3 {
+	background:url(../img/41.png) no-repeat center center;
+}
+.major_2 .img4 {
+	background:url(../img/42.png) no-repeat center center;
+}
+.major_2 .img5 {
+	background:url(../img/43.png) no-repeat center center;
+}
+.major_2 .p1 {
+	margin-top: 25px;
+	font-size: 30px;
+    line-height: 1.2;
+    font-weight:100;
+}
+.major_2 .p2 {
+	font-size: 15px;
+    line-height: 1.8;
+    color:#333;
+}
+.major_2 a {
+	color:#0070c9;
+	font-size:15px;
+}
+/* Mac 教育应用 */
+.teach_bg {
+	height:600px;
+	background:url(../img/50.jpg) no-repeat center center;
+	color:#fff;
+}
+.teach_content .p1 {
+	font-size: 45px;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.teach_content .p2,.teach_content .p3 a {
+	font-size: 16px;
+    line-height: 1.8;
+    color:#fff;
+}
+.teach_content {
+	width: 320px;
+	position: relative;
+    top: 36%;
+    left: 18%;
+}
+  /* Mac 商务应用 */
+.business_bg {
+	height:600px;
+	background:url(../img/51.jpg) no-repeat center center;
+	color:#fff;
+}
+.business_content .p1 {
+	font-size: 45px;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.business_content .p2,.business_content .p3 a {
+	font-size: 16px;
+    line-height: 1.8;
+    color:#fff;
+}
+.business_content {
+	width: 320px;
+	position: relative;
+    top: 36%;
+    left: 50%;
+}
+  /* Mac 免费讲座 */
+.free_bg {
+	height:600px;
+	background:url(../img/52.jpg) no-repeat center center;
+	color:#fff;
+	position:relative;
+	text-align:center;
+}
+.free_content .p1 {
+	font-size: 40px;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.free_content .p2 {
+	font-size: 45px;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.free_content .p3,.free_content .p3 a {
+	font-size: 16px;
+    line-height: 1.8;
+    color:#fff;
+}
+.free_content {
+	position: relative;
+    top: 36%;
+}
+/* Mac 尾部区域 */
+.foot {
+	background-color:#f2f2f2;
+}
+.foot_1,.foot_2 {
+	max-width: 1024px;
+    margin: 0 auto;
+}
+.foot_1 p {
+	padding:10px 0;
+	border-bottom:1px solid #e3e3e3;
+	color: #999;
+}
+.foot_2 p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	font-size:12px;
+	font-weight:500;
+}
+.foot_2 span {
+	position: relative;
+    top: 2px;
+}
+.foot a img:hover {
+	opacity:1;
+}
+.foot a img {
+	width:18px;
+	opacity:0.5;
+}
+/* 下面链接区域*/
+@media screen and (max-width:768px) {
+	.select_big {
+		display:none;
+	}
+}
+@media screen and (min-width:769px) {
+	.select_small {
+		display:none;
+	}
+}
+.select {
+	background-color: #f2f2f2;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.select1 {
+	display:flex;
+	max-width:1024px;
+	margin:0 auto;
+}
+.select1_1 {
+	width:20%;
+}
+.select_small {
+	padding-top:20px;
+}
+h4>a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	color:#333 !important;
+	opacity:0.8;
+}
+h4>a:hover {
+	text-decoration:none;
+	opacity:1;
+}
+a {
+	color: #666;
+	font-size: 12px;
+}
+a:hover {
+	color:#333;
+}
+.select p {
+	margin-bottom:0;
+	line-height:22px;
+}
+.s_title {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.panel_select {
+	border:0;
+	border-bottom:1px solid #e3e3e3;
+	margin-top:0 !important;
+}
+.panel-body>p {
+	    line-height: 30px;
+}
+.group_select {
+	border:0;
+	margin-bottom:0;
+}
+.panel-collapse{
+	background-color: #f2f2f2;
+	padding-left:1px;
+}
+.panel-heading {
+	padding:0;
+	padding-left:1px;
+	height:38px;
+	background-color:#f2f2f2 !important;
+}
+h4 {
+	line-height: 37px;
+}
+.more {
+	max-width:1024px;
+	margin:30px auto;
+	margin-bottom:0;
+	padding-bottom:30px;
+}
+.more:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.more a {
+	color:#0070c9;
+}
+.more a:hover {
+	color:#333;
+}
+.more_1 a {
+	color:#666 !important;
+}
+.more_1 .col-md-4 a {
+	padding-left:6px;
+}
+.more_1 {
+	display:flex;
+}
+.more p {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom:5px;
+	margin-bottom:6px;
+}
+.more>p {
+	font-size:12px;
+}
+.c_2016 {
+	padding-right: 35px;
+	font-size:12px;
+	margin-top: 3px;
+}
+.c_20162 {
+	flex:1;
+	text-align:right!important;
+}
+@media screen and (max-width:768px) {
+	.more_1 {
+		display:block;
+	}
+	.c_20162 {
+		text-align:left !important;
+	}
+	.select {
+		width: 95%;
+    margin: 0 auto;
+	}
+}

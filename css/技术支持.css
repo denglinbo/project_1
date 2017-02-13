@@ -1,0 +1,864 @@
+/*Apple支持背景区域*/
+body{
+	background-color: #fff;
+}
+
+.nav_all{
+	height: 84px;
+	width: 100%;
+}
+
+@media (min-width: 1024px){
+	.zhichi_image {
+		width: 100%;
+		height: 680px;
+		background-image: url(../技术支持_image/背景1.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center 30%;
+	}
+	.apple_zhichi {
+		width: 100%;
+		height: 680px;
+	}
+	.zhichi_top {
+		width: 100%;
+		height: 52px;
+		margin: 0 auto;
+		border-bottom: 1px solid #bfbebe;
+		padding: 0px 10px;
+	}
+	.zhichi_top span {
+		font-size: 25px;
+		color: #333;
+		line-height: 52px;
+	}
+	.zhichi_a {
+		width: 135px;
+		height: 52px;
+		float: right;
+		margin-right: 50px;
+	}
+	.zhichi_a a {
+		color: #333;
+		line-height: 52px;
+		padding-left: 30px;
+	}
+	.zhichi_a a:hover {
+		color: #337ab7;
+	}
+	.zhichi_apple {
+		width: 800px;
+		height: 68px;
+		margin: 0 auto;
+		margin-top: 60px;
+		text-align: center;
+		color: #333;
+		font-size: 55px;
+	}
+	.zhichi_help {
+		width: 700px;
+		height: 33px;
+		margin:  0 auto;
+		margin-top: 40px;
+		text-align: center;
+		color: #333;
+		font-size: 23px;
+	}
+	.zhichi_search {
+		width: 700px;
+		height: 52px;
+		margin: 0 auto;
+		margin-top: 50px;
+		position: relative;
+	    z-index: 1;
+	    text-align: center;
+	}
+	.zhichi_search input {
+		width: 700px;
+		height: 52px;
+		border: 1px solid #bbb;
+		border-radius: 3px;
+		padding-left: 50px;
+		font-size: 22px;
+	}
+	.zhichi_search button {
+		margin-top: -37px;
+		margin-left: -48%;
+	}
+
+	/*选择产品区域*/
+	.hichi_chose {
+		width: 100%;
+		height: 258px;
+	}
+	.chose_text {
+		width:817px;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 50px;
+		color: #000;
+		font-size: 21px;
+		text-align: center; 
+	}
+
+	/*更新IOS区域*/
+	.normal {
+		height: 300px;
+	}
+	.normal_center {
+		width: 817px;
+		height: 234px;
+		margin: 0 auto;
+	}
+	.normal_text {
+		float: left;
+		width: 400px;
+		height: 233px;
+	}
+	.normal_text1{
+		font-size: 43px;
+	}
+	.normal_text2 {
+	    color: #333;
+	    font-size: 20px;
+	    margin: 0 auto;
+	}
+	.img {
+		width: 400px;
+		height: 233px;
+		float: right;
+		background-size: cover;
+	}
+
+	/*热门主题区域*/
+	.hot_subject {
+		width: 100%;
+		height: 450px;
+	}
+	.content_image1 {
+		margin: 0 10px;
+		float: left;
+		width: 446.83px;
+		height: 308px;
+	}
+	.content_image2 {
+		margin: 0 10px;
+		float: right;
+		width: 446.83px;
+		height: 308px;
+	}
+    
+    /*保修或维修部分*/
+    .repair_flaot {
+    	float: left;
+    	width: 50%;
+    	height: 162px;
+    	margin-top: 45px;
+    	border-right: 1px solid #dedede;
+    }
+    .repair_maintain_middle {
+    	height: 242px;
+    	width: 696px;
+    }
+	.maintain_flaot {
+		float: right;
+		width: 50%;
+		height: 162px;
+		margin-top: 45px;
+	}
+	/*参加免费讲座区域*/
+	.chair {
+		width: 100%;
+		height: 516px;
+		margin:0 auto;
+		background-image: url(../技术支持_image/背景6.jpg);
+		background-size: cover;
+	    background-position: center 30%;
+	    border-top: 1px solid #dedede;
+	}
+	.chair_text {
+		width: 500px;
+		margin: 200px 40px;
+		 margin-left: 200px;
+	}
+	/*了解保修政策区域*/
+	.policy {
+		margin-top: 45px;
+	}
+}
+
+@media (max-width: 1023px){
+	.hichi_chose {
+		width: 100%;
+	}
+	.chose_text {
+		width:100%;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 50px;
+		color: #000;
+		font-size: 21px;
+		text-align: center; 
+	}
+	.product_li{
+		width: 30%;
+	}
+	.zhichi_image {
+		width: 100%;
+		height: 359px;
+	}
+	.apple_zhichi {
+		width: 100%;
+		height: 359px;
+	}
+	.zhichi_top {
+		width: 100%;
+		height: 52px;
+		margin: 0 auto;
+		    padding: 0 20px;
+		border-bottom: 1px solid #bfbebe;
+	}
+	.zhichi_top span {
+		font-size: 25px;
+		color: #333;
+		line-height: 52px;
+	}
+	.zhichi_a {
+		width: 135px;
+		height: 52px;
+		float: right;
+		margin-right: 50px;
+	}
+	.zhichi_a a {
+		color: #333;
+		line-height: 52px;
+		padding-left: 30px;
+	}
+	.zhichi_a a:hover {
+		color: #337ab7;
+	}
+	.zhichi_apple {
+		width: 100%;
+		height: 68px;
+		margin: 0 auto;
+		text-align: center;
+		color: #333;
+		margin-top: 32px;
+		font-size: 40px;
+	}
+	.zhichi_help {
+		width: 100%;
+		height: 33px;
+		margin:  0 auto;
+		text-align: center;
+		color: #333;
+		margin-top: 16px;
+		font-size: 24px;
+	}
+	.zhichi_search {
+		width: 100%;
+		height: 40px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 40px 50px 0px 50px;
+	}
+	.zhichi_search input {
+		width: 100%;
+		height: 40px;
+		border: 1px solid #bbb;
+		border-radius: 3px;
+		padding-left: 50px;
+		font-size: 22px;
+	}
+	.zhichi_search button {
+		margin-top: -30px;
+		margin-left: -43%;
+	}
+
+	.normal {
+		height: 500px;
+	}
+	.normal_center {
+		width: 100%;
+		height: 234px;
+		margin: 0 auto;
+	}
+	.normal_text {
+		text-align: center;
+		width: 100%;
+		height: 233px;
+		float: none;
+	}
+	.normal_text1{
+		font-size: 40px;
+	}
+	.normal_text2 {
+	    color: #333;
+	    width: 670px;
+	    font-size: 20px;
+	    margin: 0 auto;
+	}
+	.img {
+		float: none;
+		width: 400px;
+		height: 223px;
+		margin: 0 auto;
+		background-size: cover;
+	}
+
+	/*热门主题区域*/
+	.image_mac,.image_massage {
+		float: left;
+	}
+	.hot_subject {
+		width: 100%;
+		height: 450px;
+	}
+	.hot_subject_content {
+		max-width: 980px;
+		height: 408px;
+		margin: 0 auto;
+	}
+	.content_image1 {
+		margin: 0 10%;
+	}
+	.content_image2 {
+		margin: 0 10%;
+	}
+
+	/*保修或维修部分*/
+	.repair_maintain_middle {
+		height: 242px;
+		width: 696px;
+	}
+	.repair_flaot {
+		float: left;
+		width: 50%;
+		height: 162px;
+		margin-top: 45px;
+		border-right: 1px solid #dedede;
+	}
+	.maintain_flaot {
+		float: right;
+		width: 50%;
+		height: 162px;
+		margin-top: 45px;
+	}
+	/*参加免费讲座区域*/
+	.chair {
+		width: 100%;
+		height: 413px;
+		margin:0 auto;
+		background-image: url(../技术支持_image/背景6.jpg);
+		background-size: cover;
+	    background-position: center 30%;
+	    border-top: 1px solid #dedede;
+	}
+	.chair_text {
+		width: 600px;
+		margin: 150px 40px;
+	}
+
+	/*了解保修政策区域*/
+	.policy {
+		margin-top: 45px;
+	}
+}
+
+@media (max-width: 768px){
+	.zhichi_search button {
+		margin-top: -30px;
+		margin-left: -38%;
+	}
+
+	/*选择产品区域*/
+	.product_li{
+		width: 50%
+	}
+
+	.hichi_chose {
+		width: 100%;
+	}
+	.chose_text {
+		width:100%;
+		height: 40px;
+		margin: 0 auto;
+		color: #000;
+		font-size: 21px;
+		text-align: center; 
+	}
+
+	/*更新IOS区域*/
+	.normal {
+		height: 450px;
+	}
+	.normal_center {
+		width: 100%;
+		height: 234px;
+		margin: 0 auto;
+	}
+	.normal_text {
+		text-align: center;
+		width: 100%;
+		height: 233px;
+	}
+	.normal_text1{
+		font-size: 40px;
+	}
+	.normal_text2 {
+		width: 80%;
+	    color: #333;
+	    font-size: 20px;
+	    margin: 0 auto;
+	}
+	.img {
+		float: none;
+		width: 300px;
+		height: 185px;
+		margin: 0 auto;
+		background-size: cover;
+	}
+	/*热门主题部分*/
+	.image_mac,.image_massage {
+		float: none;
+		margin-left: 32%;
+	}
+	.hot_subject {
+		width: 100%;
+		height: 700px;
+	}
+	.hot_subject_content {
+		height: 60px;
+		margin: 0 auto;
+	}
+	.content_image1 {
+		width: 100%;
+		padding-left: 20px;
+		margin-left: 0;
+	}
+	.content_image2 {
+		width: 100%;
+		padding-left: 20px;
+		margin-left: 0;
+	}
+
+	/*保修和维修部分*/
+	.repair_maintain_middle {
+		height: 500px;
+		width: 90%;
+	}
+	.repair_flaot{
+		float: none;
+		width: 100%;
+		padding-top: 45px;
+		height: 250px;
+		border-right: 0px solid #dedede;
+		border-bottom: 1px solid #dedede;
+	}
+	.maintain_flaot {
+		height: 162px;
+		width: 100%;
+	}
+	/*参加免费讲座区域*/
+	.chair {
+		width: 100%;
+		margin:0 auto;
+		background-image: url(../技术支持_image/背景6_大.jpg);
+		background-size: cover;
+	    background-position: center 30%;
+	    border-top: 1px solid #dedede;
+	}
+	.chair_text {
+		width: 300px;
+	     margin-top: 450px; 
+	}
+
+	/*了解保修政策区域*/
+	.policy {
+		margin-top: 200px;
+	}
+}
+.zhichi_search button {
+	background-color: #fff;
+	border: 1px solid #fff;
+	background-image: url(../技术支持_image/search_icon.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 22px;
+}
+
+.chose_product {
+	max-width: 980px;
+    margin: 0 auto;
+	text-align: center;
+}
+.product_li {
+	float: left;
+	list-style: none;
+	padding: 19px 30px;
+}
+.product_li_icon1 img {
+	width: 65px;
+	height: 123px;
+}
+.product_li_icon2 img {
+	width: 92px;
+	height: 123px;
+}
+.product_li_icon3 img {
+	width: 126px;
+	height: 123px;
+}
+.product_li_icon4 img {
+	width: 141px;
+	height: 123px;
+}
+.product_li_icon5 img {
+	width: 96px;
+	height: 123px;
+}
+.product_li_icon6 img {
+	width: 96px;
+	height: 123px;
+}
+
+/*展开产品列表区域*/
+.product_list {
+	width: 100%;
+	height: 73px;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.list_text {
+	width: 300px;
+	height: 73px;
+	margin: 0 auto;
+	text-align: center;
+}
+.list_text p {
+	line-height: 73px;
+	font-weight: bold;
+	color: #08c;
+	font-size: 14px;
+}
+.list_text p img {
+	width: 20px;
+	height: 20px;
+	padding-left: 3px;
+}
+
+.normal {
+	width: 100%;
+	margin-top: 45px;
+	border-bottom: 1px solid #dedede;
+}
+.normal_text1 {
+	color: #333;
+}
+.normal_text2{
+	color: #333;
+	padding-bottom: 40px;
+}
+.normal_text3 {
+	padding-bottom: 30px;
+}
+.normal_text3 a {
+	font-size: 14px;
+	color: #08c;
+}
+.ios_image{
+	background-image: url(../技术支持_image/背景2.jpg);
+}
+
+
+.image_mac {
+	width: 240px;
+	height: 150px;
+	margin: 0 auto;
+	background-image: url(../技术支持_image/背景3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image_massage {
+	width: 240px;
+	height: 150px;
+	margin: 0 auto;
+	background-image: url(../技术支持_image/背景4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*热门主题部分*/
+.hot_subject{
+	border-bottom: 1px solid #dedede;
+}
+.hot_subject_title{
+	width: 100%;
+	height: 76px;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+	color: #333;
+	font-size: 45px;
+}
+.hot_subject_content {
+	max-width: 980px;
+    margin: 0 auto;
+}
+.hot_subject_text {
+	width: 100%;
+	height: 140px;
+	margin-top: 20px;
+}
+.hot_subject_text p {
+	color: #333;
+	font-size: 16px;
+	line-height: 29px;
+}
+.hot_subject_text_p {
+	font-size: 25px !important;
+} 
+.hot_subject_text p a {
+	font-size: 14px;
+	color: #08c;
+}
+
+
+/*确保帐户安全技巧区域*/
+.safe {
+	width: 100%;
+	height: 366.19px;
+	margin-top: 45px;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.safe_center {
+	width: 817px;
+	height: 234px;
+	margin: 0 auto;
+	margin-top: 38px;
+}
+.safe_text {
+	float: left;
+	width: 408.5px;
+}
+
+.safe_text2 ,.safe_text3{
+	color: #333;
+	font-size: 20px;
+}
+.safe_text3 {
+	padding-bottom: 30px;
+}
+.safe_text1 {
+	color: #333;
+	font-size: 45px;
+	padding-bottom: 11px;
+}
+.safe_text4 a {
+	font-size: 14px;
+	color: #08c;
+}
+.safe_image {
+	background-image: url(../技术支持_image/背景5.jpg);
+}
+
+/*支持社区区域*/
+.support {
+	width: 100%;
+	height: 320px;
+	margin: 0 auto;
+	margin-top: 43px;
+	text-align: center;
+}
+
+.support_image {
+	width: 80px;
+	height: 80px;
+	margin:0 auto;
+	background-image: url(../技术支持_image/icon7.png);
+	background-size: cover;
+}
+.support_1 {
+	color: #333;
+	font-size: 45px;
+	margin: 10px 0 ;
+}
+.support_2 {
+	color: #333;
+	font-size: 15px;
+	margin-top: 15px;
+
+}
+.support_3 {
+	margin-top: 52px; 
+}
+.support_3 a {
+	color: #08c;
+	font-size: 15px;
+}
+
+/*保修和维修区域*/
+.repair_maintain {
+	width: 100%;
+	border-top: 1px solid #dedede;
+}
+.repair_maintain_content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.repair_maintain_text1 {
+	color: #333;
+	font-size: 40px;
+	margin-top: 30px;
+}
+.repair_maintain_text2 {
+	color: #333;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.repair_maintain_middle {
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.ima_small img {
+	width: 40px;
+	height: 40px;
+}
+.ima_small .a_p1 {
+	color: #333;
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 20px;
+}
+.ima_small .a_p2 {
+	color: #333;
+	font-size: 10px;
+}
+.ima_small .a_p3 {
+	color: #08c;
+	padding-top: 20px;
+}
+.ima_small .a_p1:hover {
+	color: #08c;
+}
+
+/*联系 Apple 支持区域*/
+.contact {
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+	font-size: 20px;
+	margin-top: 40px;
+}
+.contact_help {
+	width: 100%;
+	height: 58px;
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.contact_tel {
+	width: 100%;
+	height: 26px;
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.contact_button {
+	width: 100%;
+	height: 34px;
+	margin: 40px auto;
+	text-align: center;
+}
+.contact_button button {
+	width: 87.17px;
+	height: 34px;
+	background-color:#2189db;
+	border-radius: 5px;
+	border:1px solid #07c;
+	color: #fff;
+	font-size: 13px;
+}
+.contact_button button:hover {
+	background-color:#42a1ec;
+}
+
+/*参加免费讲座区域*/
+.chair_text {
+	height: 149px;
+}
+.chair_text p {
+	margin-top: 25px;
+}
+.chair_text .chair_p1 b {
+	color: #333;
+	font-size: 40px;
+}
+.chair_text .chair_p2 {
+	color: #333;
+	font-size: 14px;
+}
+.chair_text .chair_p3 a {
+	color: #08c;
+	font-size: 13px;
+}
+
+/*了解保修政策区域*/
+.policy {
+	width: 100%;
+	height: 200px;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.policy_centent {
+	height: 96px;
+	margin:0 auto;
+	text-align: center;
+}
+.policy_centent .policy_text {
+	color: #333;
+	font-size: 22px;
+	line-height: 128px;
+}
+.policy_centent .policy_p a {
+	color: #08c;
+	font-size: 13px;
+}
+
+/*计划区域*/
+.plan {
+	height: 320px;
+	margin:0 auto;
+	text-align: center;
+}
+.plan p {
+	color: #333;
+	font-size: 21px;
+	margin-top: 55px;
+}
+.plan ul {
+	margin-top: 40px;
+}
+.plan ul li {
+	list-style: none;
+	line-height: 33px;
+}
+.plan ul li a {
+	color: #08c;
+	font-size: 13px;
+}

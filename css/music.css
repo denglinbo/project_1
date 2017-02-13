@@ -1,0 +1,750 @@
+body {
+	padding:0;
+	margin:0;
+	overflow:-Scroll;
+	overflow-x:hidden;
+	background: #eee;
+	min-width:1020px;
+	background-color:#f2f2f2!important;
+}
+* {
+	padding:0;
+	margin:0;
+	font-size: 12px;
+}
+/*顶部导航栏区域*/
+.top_nav {
+	background: #444;
+	line-height: 1;
+	width: 100%;
+	right: 0;
+	height: 44px;
+}
+.top_nav_text{
+	color: #a8a8aa;
+	font-size: 12px;
+	display: block;
+	line-height: 44px;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-align: right;
+	max-width: 976px;
+	margin: 0 auto;
+	padding:0px 16px;
+}
+/*主导航栏区域*/
+.pc_hidden {
+	background-color:#000;
+	position:absolute;
+	top:44px;
+	width:100%;
+	opacity:1;
+	display:none;
+}
+.pc_hidden ul {
+	width:100%;
+	list-style:none;
+    line-height: 20px;
+    padding-bottom: 20px;
+    margin-bottom:0;
+}
+.pc_hidden li {
+	height:30px;
+	line-height:30px;
+	width: 65%;
+    margin: 0 auto;
+    padding:2px 0;
+    border-bottom:1px solid #9e9e9e;
+}
+.pc_hidden ul li a {
+	font-size:12px;
+	color:#fff;
+	display: inline-block;
+    width: 100%;
+    font-weight:100;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav_header {
+	position: absolute;
+	z-index: 1;
+	width: 100% ;
+	height: 44px ;
+	background-color: rgba(0,0,0,1);
+	opacity: 0.8;
+	margin: 0 auto;
+}
+
+.nv_content{
+	margin: 0 auto;
+	width: 1000px;
+	padding: 0;
+}
+.navbar-brand {
+	position: relative;
+	z-index: 2;
+	float: right;
+	padding: 0px 10px;
+	height: 44px;
+}
+.nav_ul {
+	list-style: none;
+	cursor: default;
+	width: auto;
+	height: 44px;
+	margin: 0;
+	text-align: center;
+}
+#logo{
+	padding-left: 0px;
+}
+#bag{
+	padding-right: 0;
+}
+
+.nav_ul li {
+	height: 44px;
+}
+.nav_ul li a img:hover {
+	opacity: 0.7;
+}
+@media (max-width: 1000px) {
+	.nv_content{
+		margin: 0 auto;
+		width: 768px;
+	}
+	.top_nav_text{
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 767px) {
+	.nv_content,.top_nav_text{
+		width: 100%;
+	}
+
+	.nav_ul{
+		position: relative;
+		z-index: 1;
+		height: 44px;
+		text-align: center;
+		
+	}
+	.visible-xs {
+		display: block;
+		margin-bottom:0;
+	}
+	.nav_lleft {
+		position:relative;
+	}
+	.nav_lleft:hover .pc_hidden {
+		display:block !important;
+	}
+	.item {
+		display: none;
+	}
+    #navbar-toggle:checked ~ .item {
+    	display: block;
+    }
+
+	label[for=navbar-toggle] {
+		position: absolute;
+		z-index: 4;
+		padding: 12px 10px;
+		height: 44px;
+	}
+
+	label[for=navbar-toggle]::before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 3px;
+		background-color: #fff;
+		box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+		z-index: 3
+	}
+}
+
+@media (min-width: 768px) {
+	.nav_ul li {
+		display: inline-block;
+		    width: 10%;
+	}
+	.nav_ul li img{
+		display: inline-block;
+		height:44px;
+	}
+.visible-xs {
+	display: none;
+}
+/*子航栏区域*/
+.chapternav_content_nav_i {
+	height: 110px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 84px;
+	line-height: 28px;
+	z-index: 100;
+}
+.chapternav_content_nav_i img{
+    width: 60px;
+    height: 60px;
+}
+.chapternav_content_nav_i a{
+	display: block;
+}
+.chapternav-a{
+	background: url(../image/apple_1music_dark_1.svg) 50% 0% no-repeat;
+	background-size: 28px 54px; 
+}
+.chapternav-a span{
+	display: inline-block;
+	padding-top: 51px;
+}
+.chapternav-a-2{
+	background: url(../image/apple_3music_dark_1.svg)no-repeat;
+	background-size: 31px 54px;
+}
+.chapternav-a-2 span{
+	display: inline-block;
+	padding-top: 51px;
+}
+.chapternav-a-3{
+	background: url(../image/apple_5music_dark_1.svg) no-repeat;
+	background-size: 23px 54px;
+}
+.chapternav-a-3 span{
+	display: inline-block;
+	padding-top: 51px;
+}
+.chapternav-a-4{
+	background: url(../image/apple_7music_dark_1.svg)50% 8% no-repeat;
+	background-size: 33px 54px;
+}
+.chapternav-a-4 span{
+	display: inline-block;
+	padding-top: 51px;
+}
+.chapternav_nav_div_i {
+	height: 44px;
+	width: 1024px;
+	margin: 20px auto;
+}
+
+.chapternav_nav_ul_i {
+	width: 100%;
+	margin: 0 356px;
+}
+.chapternav_nav_ul_i li {
+	float: left;
+	list-style: none;
+}
+.chapternav_nav_ul_i li span{
+    color: #fff;
+ 
+}
+
+.chapternav_nav_ul_i li span:hover{
+	color: #848cf8;
+}
+.chapternav_nav_left_i {
+	padding-left: 50px;
+}
+.chapternav_nav_ul li {
+	float: left;
+	list-style: none;
+}
+.chapternav_nav_left {
+	padding-left: 86px;
+}
+.zhichi a img {
+	width: 60px;
+	height: 44px;
+}
+/*卡片英雄*/
+.card-hero{
+	width: 100%;
+	background: #eee;
+}
+.card-hero-bj{
+	height: 743px;
+	width: 100%;
+}
+.beijing{
+	width: 100%;
+	height: 743px;
+}
+.card-hero_i{
+	height: 100%;
+	margin: 0;
+	background-image: url(../image/family_hero_large12.jpg);
+	background-size: 100%;
+}
+.card-hero_i img{
+	width: 100%;
+	height: 800px;
+}
+.copy-wrapper{
+	width: 188px;
+	height: 247px;
+	margin-top: -503px;
+    margin-left: 150px;
+}
+.apple-music-logo{
+	width: 175px;
+	height: 42px;
+	background: url(../image/apple_music_logo_large_1_9.png);
+}
+.copy-wrapper a:hover{
+	color: #fff;
+}
+.copy-wrapper h3{
+	font-size: 47px;
+	color: #fff;
+	margin-top: 15px;
+}
+.copy-wrapper-a{
+	display: block;
+	border-radius: 5px;
+	width: 171px;
+	height: 30px;
+	background: #ff466a;
+	color: #fff;
+	line-height: 30px;
+	text-align:center;
+	margin: 25px 0;
+}
+.copy-wrapper a{
+	font-size: 15px;
+	color: #fff;
+}
+
+/*乐不停区域*/
+.subsection-headline{
+	color: #fff;
+}
+.subsection-headline{
+	margin-bottom: 20px;
+}
+/*视频*/
+.pletter{
+	background-color: #fff;
+	width: 1160px;
+    height: 1560px;
+	position: relative;
+	top: -150px;
+}
+.pletter_row{
+	margin-top: -40px; 
+}
+.pletter  h2{
+	font-size: 35px;
+	color: #000;
+	z-index: 99;
+	margin-top: 70px;
+    margin-left: 65px;
+}
+.span_1{
+    color: #ffffff;
+    font-size: 12px;
+}
+.pletter_row_1{
+	display:flex;
+	justify-content:space-around;
+	margin-left: 55px;
+	margin-top: 60px;
+}
+.pletter_image1{
+}
+.pletter_image2{
+	display: inline-block;
+}
+.pletter_image3{
+	display: inline-block;
+}
+.pletter_image4{
+	display: inline-block;
+}
+.shipin1{
+	font-weight: 300;
+	font-size: 22px;
+	margin-bottom:20px; 
+	color: #000;
+	padding: 0;
+}
+.shun{
+	color: #000;
+	font-size: 34px;
+	margin: 10px 0 6px;
+}
+.yanzi{
+    font-size: 34px;
+    color: #000;
+}
+.a{
+	margin: 10px 0;
+}
+ .a a:hover{
+	color: #c7c7c7;
+}
+.a a{
+	font-size: 14px;
+	color: #c7c7c7;
+}
+.pletter_img1{
+	width: 475px;
+	height: 475px;
+}
+.pletter_img2{
+	width: 475px;
+	height: 475px;
+	background:url(../image/101.jpg);
+}
+.pletter_img4{
+	width: 475px;
+	height: 475px;
+	background:url(../image/102.jpg);
+}
+.pletter_img3{
+	width: 475px;
+	height: 475px;
+	background:url(../image/103.jpg);
+}
+/*Airpods*/
+.Airpods{
+	color: #000000;
+}
+.Airpods_bj{
+	height: 980px;
+	overflow: hidden;
+	background-color: #f5fdf1;
+}
+.Airpods_bj-2{
+	height: 980px;
+	overflow: hidden;
+	background-color: #fff1de;
+}
+.Airpods_bj-3{
+	height: 980px;
+	overflow: hidden;
+	background-color: #e9f7f8;
+}
+.Airpods_bj-4{
+	height: 980px;
+	overflow: hidden;
+	background-color: #fce7e3;
+}
+.bj-1 {
+    width: 100%;
+    height: 1040px;
+    background: url(../image/airpods_large_16.png) no-repeat center;
+    margin-left: 200px;
+}
+.bj-2{
+	width: 100%;
+	height: 940px;
+	background: url(../image/ipod_large_17.png) no-repeat center;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.bj-3{
+	width: 100%;
+	height: 940px;
+	background: url(../image/accessories_large_19.png) no-repeat center;
+	margin-left: 200px;
+    margin-top: 40px;
+}
+.bj-4{
+	width: 100%;
+	height: 940px;
+	background: url(../image/itunes_large_19.png) no-repeat center;
+	margin-left: 309px;
+    margin-top: 40px;
+}
+.center_conter{
+    display: inline-block;
+    width: 320px;
+    margin-top: 360px;
+    margin-left: -60px;
+}
+.center_conter_2{
+	display: inline-block;
+    width: 320px;
+    margin-top: 330px;
+    margin-left: -200px;
+}
+.center_conter_2 h3{
+	font-size: 32px;
+}
+.AirPods_text{
+	font-size: 22px;
+	z-index: 999;
+	display: inline-block;
+	margin-top: 20px
+}
+.center_conter h3{
+	font-size: 32px;
+	line-height: 45px;
+}
+.AirPods_text2{
+	font-size: 17px;
+	color: #000;
+}
+.AirPods_text2 a{
+	font-size: 17px;
+	color: #000;
+}
+.bottum{
+	display: block;
+	border: 1px solid #ccc;
+	width: 108px;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+.span_2{
+	color: #000;
+	font-size: 12px;
+}
+/*进一步了解区域*/
+.Airpods_bj-5{
+	overflow: hidden;
+	background-color: #fff;
+}
+.bj-5{
+	width: 100%;
+	height: 740px;
+	background: url(../image/apps_large_21.jpg) no-repeat center;
+	margin-top: -150px;
+}
+.Airpods_text-5{
+	margin-top: 130px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.Airpods_text-5 h2{
+	font-size: 33px;
+}
+.bj-5-row{
+	width: 980px;
+	margin: auto;
+	margin-top:-40px;
+}
+.row_1{
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+    position: relative;
+    top: -21px;
+}
+.row_2{
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+	margin: 0 25px;
+}
+.row_8{
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+	margin-right: 20px;
+	position: relative;
+    top: -29px;
+}
+.row_4{
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+}
+.img_1{
+	width: 70px;
+	height: 95px;
+	background: url(../image/23.png) no-repeat;
+}
+.img_2{
+	width: 70px;
+	height: 95px;
+	background: url(../image/24.png) no-repeat;
+}
+.img_8{
+	width: 70px;
+	height: 85px;
+	background: url(../image/25.png) no-repeat;
+}
+.img_4{
+	width: 70px;
+	height: 85px;
+	background: url(../image/26.png) no-repeat;
+}
+.music-1{
+	font-size: 27px;
+	margin-bottom: 15px;
+}
+.music{
+	font-size: 27px;
+	margin-top: 20px;
+}
+.music-text{
+	font-size: 16px;
+	line-height: 30px;
+}
+.bj-5-row a{
+	font-size: 16px;
+	line-height: 20px;
+}
+.music-text2{
+	display: block;
+	margin: 20px 0 5px;
+	color: #000;
+	font-size: 16px;
+}
+/* 下面链接区域*/
+@media screen and (max-width:768px) {
+	.select_big {
+		display:none;
+	}
+}
+@media screen and (min-width:769px) {
+	.select_small {
+		display:none;
+	}
+}
+.select_all {
+	background-color:#f2f2f2;
+}
+.select_small a {
+	color:#9e9e9e!important;
+}
+.select {
+	background-color: #f2f2f2;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.select1 {
+	display:flex;
+	max-width:1024px;
+	margin:0 auto;
+}
+.select1 a {
+	color:#9e9e9e;
+}
+.select1_1 {
+	width:20%;
+}
+.select_small {
+	padding-top:20px;
+}
+h4>a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	color:#333 !important;
+	opacity:0.8;
+}
+h4>a:hover {
+	text-decoration:none;
+	opacity:1;
+}
+a {
+	color: #666;
+	font-size: 12px;
+}
+a:hover {
+	color:#333;
+}
+.select p {
+	margin-bottom:0;
+	line-height:22px;
+}
+.s_title {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.panel_select {
+	border:0;
+	border-bottom:1px solid #e3e3e3;
+	margin-top:0 !important;
+}
+.panel-body>p {
+	    line-height: 30px;
+}
+.group_select {
+	border:0;
+	margin-bottom:0;
+}
+.panel-collapse{
+	background-color: #f2f2f2;
+	padding-left:1px;
+}
+.panel-heading {
+	padding:0;
+	padding-left:1px;
+	height:38px;
+	background-color:#f2f2f2 !important;
+}
+h4 {
+	line-height: 37px;
+}
+.more {
+	max-width:1024px;
+	margin:30px auto;
+	margin-bottom:0;
+	padding-bottom:30px;
+}
+.more:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.more a {
+	color:#0070c9;
+}
+.more a:hover {
+	color:#333;
+}
+.more_1 a {
+	color:#666 !important;
+}
+.more_1 .col-md-4 a {
+	padding-left:6px;
+}
+.more_1 {
+	display:flex;
+}
+.more p {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom:5px;
+	margin-bottom:6px;
+}
+.more>p {
+	font-size:12px;
+}
+.c_2016 {
+	padding-right: 35px;
+	font-size:12px;
+	margin-top: 3px;
+}
+.c_20162 {
+	flex:1;
+	text-align:right!important;
+}
+@media screen and (max-width:768px) {
+	.more_1 {
+		display:block;
+	}
+	.c_20162 {
+		text-align:left !important;
+	}
+	.select {
+		width: 95%;
+    margin: 0 auto;
+	}
+}

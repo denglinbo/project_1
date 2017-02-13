@@ -1,0 +1,726 @@
+body {
+	font-family: "微软雅黑";
+	font-weight: 300;
+	background-color:#f2f2f2;
+	min-width:1040px;
+}
+.p1 {
+	font-size: 51px;
+}
+.p2 {
+	font-size:16px;
+	line-height: 1.5;
+}
+.p3 {
+	font-size:16px;
+}
+.p4 {
+	font-size:38px;
+}
+.p5 {
+	font-size:17px;
+}
+.p6 {
+	font-size:19px;
+}
+.p7 {
+	font-size:20px;
+	font-weight:400;
+}
+.p8 {
+	font-size:16px;
+	font-weight:400;
+}
+.p9 {
+	font-size:20px;
+}
+.p10 {
+	font-size:28px;
+}
+.nav_ul li img{
+		display: inline-block;
+		height:44px;
+	}
+/*次导航区域*/
+.sec_nav {
+	margin-top:44px;
+	background-color:#141414;
+}
+.sec_nav ul {
+	padding-left:0;
+	list-style:none;
+	text-align:center;
+	width:600px;
+	margin:0 auto;
+}
+.sec_nav ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.img_hidden {
+	width:200px;
+}
+
+.sec_nav ul li {
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.sec_nav1 {
+	padding-top:10px;
+	padding-bottom:16px;
+}
+.sec_nav1 p {
+	margin:0;
+	font-size:13px;
+}
+.sec_nav .span_bg {
+	display:inline-block;
+	height:54px;
+	font-size:12px;
+}
+.new {
+	margin:0;
+	color:#6bf;
+	font-size:12px !important;
+}
+.sec_nav .span_bg1 {
+	width:38px;
+	background:url(../img/i1.svg) no-repeat center;
+}
+.sec_nav .span_bg2 {
+	width:38px;
+	background:url(../img/i2.svg) no-repeat center;
+}
+.sec_nav .span_bg3 {
+	width:18px;
+	background:url(../img/i3.svg) no-repeat center;
+}
+.sec_nav .span_bg4 {
+	width:32px;
+	background:url(../img/i4.svg) no-repeat center;
+}
+.sec_nav .span_bg5 {
+	width:44px;
+	background:url(../img/i5.svg) no-repeat center;
+}
+.sec_nav .span_bg6 {
+	width:50px;
+	background:url(../img/i6.svg) no-repeat center;
+}
+.sec_nav a {
+	color:#fff;
+}
+.sec_nav a:hover {
+	color:#0070c9;
+	text-decoration:none;
+}
+/*顶部导航栏区域*/
+.top_nav {
+	background: #444;
+	line-height: 1;
+	width: 100%;
+	right: 0;
+	height: 44px;
+}
+.top_nav_text{
+	color: #a8a8aa;
+	font-size: 12px;
+	display: block;
+	line-height: 44px;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-align: right;
+	max-width: 976px;
+	margin: 0 auto;
+	padding:0px 16px;
+}
+/*主导航栏区域*/
+.pc_hidden1 {
+	background-color:#000;
+	position:absolute;
+	top:44px;
+	width:100%;
+	opacity:1;
+	display:none;
+}
+.pc_hidden1 ul {
+	width:100%;
+	list-style:none;
+    line-height: 20px;
+    padding-bottom: 20px;
+    margin-bottom:0;
+}
+.pc_hidden1 li {
+	height:30px;
+	line-height:30px;
+	width: 65%;
+    margin: 0 auto;
+    padding:2px 0;
+    border-bottom:1px solid #9e9e9e;
+}
+.pc_hidden1 ul li a {
+	font-size:12px;
+	color:#fff;
+	display: inline-block;
+    width: 100%;
+    font-weight:100;
+}
+.top_nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav_header {
+	position: absolute;
+	z-index: 1;
+	width: 100% ;
+	height: 44px ;
+	background-color: rgba(0,0,0,1);
+	opacity: 0.8;
+	margin: 0 auto;
+}
+
+.nv_content{
+	margin: 0 auto;
+	width: 1000px;
+	padding: 0;
+}
+.navbar-brand {
+	position: relative;
+	z-index: 2;
+	float: right;
+	padding: 0px 10px;
+	height: 44px;
+}
+.nav_ul {
+	list-style: none;
+	cursor: default;
+	width: auto;
+	height: 44px;
+	margin: 0;
+	text-align: center;
+}
+#logo{
+	padding-left: 0px;
+}
+#bag{
+	padding-right: 0;
+}
+
+.nav_ul li {
+	height: 44px;
+}
+.nav_ul li a img:hover {
+	opacity: 0.7;
+}
+@media (max-width: 1000px) {
+	.nv_content{
+		margin: 0 auto;
+		width: 768px;
+	}
+	.top_nav_text{
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 767px) {
+	.nv_content,.top_nav_text{
+		width: 100%;
+	}
+
+	.nav_ul{
+		position: relative;
+		z-index: 1;
+		height: 44px;
+		text-align: center;
+		
+	}
+	.visible-xs {
+		display: block;
+		margin-bottom:0;
+	}
+	.nav_lleft {
+		position:relative;
+	}
+	.nav_lleft:hover .pc_hidden1 {
+		display:block !important;
+	}
+	.item {
+		display: none;
+	}
+    #navbar-toggle:checked ~ .item {
+    	display: block;
+    }
+
+	label[for=navbar-toggle] {
+		position: absolute;
+		z-index: 4;
+		padding: 12px 10px;
+		height: 44px;
+	}
+
+	label[for=navbar-toggle]::before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 3px;
+		background-color: #fff;
+		box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+		z-index: 3
+	}
+}
+
+@media (min-width: 768px) {
+	/*.nav_ul {*/
+		/*text-align: center;*/
+	/*}*/
+	.nav_ul li {
+		display: inline-block;
+		width:10%;
+	}
+	.nav_ul li img{
+		display: inline-block;
+		height:44px;
+	}
+	.visible-xs {
+		display: none;
+	}
+}
+/* iphone7 区域 */
+.pc_hidden	{
+	display:none;
+}
+.iphone7 {
+	padding-top: 55px;
+	background-color: #000;
+	color:#fff;
+	overflow-x: hidden;
+}
+.iphone7 .content {
+	width:980px;
+	margin:0 auto;
+}
+.iphone7 .p1 span {
+	font-size: 61px;
+}
+.iphone7 .logo {
+	width: 99px;
+	height:25px;
+	margin:0 auto;
+	position: relative;
+    right: 20px;
+	background:url(../img/iphone10.jpg) no-repeat center center;
+}
+.iphone7 .text {
+	width: 380px;
+	margin: 0 auto;
+}
+.iphone7 .p2 {
+	margin:20px auto;
+}
+.iphone7 a {
+	color: #6bf;
+}
+.iphone7 .bg_img {
+	height:522px;
+	width: 1402px;
+	background: url(../img/iphone11.jpg);
+}
+/* 耳机与配件区域 */
+.airpods {
+	margin-top:50px;
+	display: flex;
+	justify-content: space-between;
+	font-weight:350;
+}
+.airpods .left{
+	padding-top: 60px;
+	text-align: center;
+	width: 48%;
+	background-color:#fff;
+}
+.left .air_icon {
+	width:110px;
+	height:24px;
+	margin:0 auto;
+	margin-bottom: 20px;
+	background: url(../img/iphone12.jpg) no-repeat;
+}
+.airpods .p5 {
+	margin: 24px 0;
+}
+.airpods span {
+	font-size: 12px;
+    border: 1px solid;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.airpods .left .bg_img{
+	height:652px;
+	background: url(../img/iphone13.jpg) no-repeat;
+}
+.airpods .right{
+	background-color:#121212;
+	padding-top: 60px;
+	text-align: center;
+	width: 48%;
+	color:#fff;
+}
+.right .air_icon {
+	width:110px;
+	height:24px;
+	margin:0 auto;
+	margin-bottom: 20px;
+	    font-size: 22px;
+    font-weight: 500;
+}
+.airpods .right .bg_img{
+	margin-top:54px;
+	height:652px;
+	background: url(../img/iphone14.jpg) no-repeat;
+}
+/* 焕新计划 */
+.renew_f {
+	margin-top:50px;
+	padding-top:50px;
+	height:508px;
+	background-color:#fff;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+.renew {
+	width:860px;
+	margin:0 auto;
+}
+.re_flex {
+	width:860px;
+	display:flex;
+	margin-top: 20px;
+}
+.re_bg {
+	width:430px;
+}
+.re_bg1{
+	width:1053px;
+	height:408px;
+	background:#fff url(../img/iphone15.jpg) no-repeat center center;
+	position: relative;
+    left: -62%;
+}
+.re_left {
+	width:50%;
+}
+.renew .content {
+    margin-top: 50px;
+    width: 492px;
+}
+.renew .content ul {
+	list-style:none;
+	font-size: 16px;
+	font-weight:400;
+    line-height: 2.5;
+    position: relative;
+    left: 25%;
+}
+ /*以旧换新*/
+ .yjhx {
+ 	padding:50px 0;
+ 	width:980px;
+ 	height:432px;
+ 	margin:0 auto;
+ 	display:flex;
+ }
+.yjhx .left_img {
+	width:392px;
+	height:331px;
+	background:url(../img/iphone16.png);
+}
+.yjhx .right_content {
+	flex:1;
+}
+.yjhx .p6 {
+	width: 450px;
+	margin:0 auto;
+}
+.yjhx .cc_content {
+	position:relative;
+	top:50px;
+}
+/*iPhone 机型比较*/
+.compare {
+	padding:50px 0;
+	background-color:#fff;
+}
+.compare ul {
+	list-style:none;
+	margin-top:30px;
+}
+.compare li {
+	display:inline-block;
+	margin-left:37px;
+	text-align:center;
+}
+/* 零售 送货区域 */
+.taste {
+	width:980px;
+	padding:90px 0;
+	margin:0 auto;
+	display:flex;
+	text-align:center;
+}
+.taste .p8 {
+	width: 354px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.taste_left {
+	width:50%;
+}
+.left_icon {
+	width:37px;
+	height:41px;
+	margin:0 auto;
+	background:url(../img/ipad28.png) no-repeat center center;
+}
+.taste_right {
+	width:50%;
+}
+.right_icon {
+	width:37px;
+	height:41px;
+	margin:0 auto;
+	background:url(../img/ipad29.png) no-repeat center center;
+}
+	/* 如何购买 iPhone */
+.shop {
+	position:relative;
+	height:720px;
+	padding-top:320px;
+	background:url(../img/011.jpg) no-repeat center center;
+	font-weight:400;
+}	
+.shop .float {
+	width:980px;
+	height:87px;
+	margin:0 auto;
+}
+.shop .left {
+	float:left;
+	text-align:center;
+}
+.shop .right {
+	float:right;
+	text-align:center;
+}
+.shop .float:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+/* pay */
+.pay_cont{
+	background-color:#fafafa;
+}
+ .pay {
+ 	padding:50px 0;
+ 	width:980px;
+ 	margin:0 auto;
+ 	display:flex;
+ }
+.pay .left_img {
+	width:367px;
+	height:472px;
+	background:url(../img/iphone17.jpg);
+}
+.pay .icon {
+	width:84px;
+	height:41px;
+	margin:0 auto;
+	background:url(../img/iphone18.png);
+}
+.pay .right_content {
+	flex:1;
+}
+.pay .p5 {
+	margin:0 auto;
+	width: 350px;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pay .cc_content {
+	position:relative;
+	top:105px;
+}
+/* 商务应用 */
+.business {
+	height:506px;
+	padding-top:150px;
+	background:url(../img/iphone19.jpg) no-repeat center center;
+	color:#fff;
+}
+.business .content {
+	max-width: 980px;
+    margin: 0 auto;
+}
+.business .content1 {
+	width: 300px;
+    text-align: center;
+}
+.business .p4 {
+	margin-bottom:20px;
+}
+.express {
+	max-width:1024px;
+	margin:0 auto;
+	padding:20px 0;
+	font-size:10px;
+	color: #999;
+	font-weight:400;
+	line-height:1.7;
+	border-bottom:1px solid #e3e3e3;
+}
+.express p {
+	margin-bottom:0;
+}
+.foot_2 {
+	width:1024px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.foot_2 span {
+	position: relative;
+    top: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.foot_2 a img:hover {
+	opacity:1;
+}
+.foot_2 a img {
+	width: 18px;
+	opacity:0.5;
+}
+/* 下面链接区域*/
+@media screen and (max-width:768px) {
+	.select_big {
+		display:none;
+	}
+}
+@media screen and (min-width:769px) {
+	.select_small {
+		display:none;
+	}
+}
+.select {
+	background-color: #f2f2f2;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.select1 {
+	display:flex;
+	width:1024px;
+	margin:0 auto;
+}
+.select1_1 {
+	width:20%;
+}
+.select_small {
+	padding-top:20px;
+}
+h4>a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	color:#333 !important;
+	opacity:0.8;
+}
+h4>a:hover {
+	text-decoration:none;
+	opacity:1;
+}
+.select a {
+	color: #666;
+	font-size: 12px;
+}
+a:hover {
+	color:#333;
+}
+.select p {
+	margin-bottom:0;
+	line-height:22px;
+}
+.s_title {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.panel_select {
+	border:0;
+	border-bottom:1px solid #e3e3e3;
+	margin-top:0 !important;
+}
+.panel-body>p {
+	    line-height: 30px;
+}
+.group_select {
+	border:0;
+	margin-bottom:0;
+}
+.panel-collapse{
+	background-color: #f2f2f2;
+	padding-left:1px;
+}
+.panel-heading {
+	padding:0;
+	padding-left:1px;
+	height:38px;
+	background-color:#f2f2f2 !important;
+}
+h4 {
+	line-height: 37px;
+}
+.more {
+	max-width:1024px;
+	margin:30px auto;
+}
+.more:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.more a {
+	color:#0070c9;
+}
+.more a:hover {
+	color:#333;
+}
+.more_1 a {
+	color:#666 !important;
+}
+.more_1 .col-md-4 a {
+	padding-left:6px;
+}
+.more_1 {
+	display:flex;
+}
+.more p {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom:5px;
+	margin-bottom:6px;
+}
+.more>p {
+	font-size:12px;
+}
+.c_2016 {
+	padding-right: 35px;
+	font-size:12px;
+	margin-top: 3px;
+}
+.c_20162 {
+	flex:1;
+	text-align:right!important;
+}

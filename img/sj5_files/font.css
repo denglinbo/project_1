@@ -1,0 +1,73 @@
+/*WEB FONT 2016.09.1*/
+
+html[lang=zh-CN] body,
+html[lang=zh-CN] p,
+html[lang=zh-CN] a,
+html[lang=zh-CN] p .nowrap {
+    font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+html[lang=zh-CN] .page-trade-up .section-headline,
+html[lang=zh-CN] .page-trade-up .section-subheadline,
+html[lang=zh-CN] .page-trade-up .subsection-subheadline,
+html[lang=zh-CN] .page-trade-up .main,
+html[lang=zh-CN] .page-compare .section h3,
+html[lang=zh-CN] .page-compare a,
+html[lang=zh-CN] .page-compare .section td p,
+html[lang=zh-CN] .page-compare .section th p,
+html[lang=zh-CN] .page-compare p .nowrap,
+html[lang=zh-CN] .page-home .section-iphone-trade-up-tabs .fp-product-subheadline,
+html[lang=zh-CN] .page-home a,
+html[lang=zh-CN] .page-home p,
+html[lang=zh-CN] .page-home p .nowrap{
+	font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* page-overview */
+html[lang=zh-CN] .page-home, 
+html[lang=zh-CN] .page-home .fp-shopstrip-copy,
+html[lang=zh-CN] .page-home .fp-shopstrip-more{font-size: 18px;}
+
+html[lang=zh-CN] .page-home .fp-hero-headline{font-size: 68px;}
+@media only screen and (max-width: 1068px) {html[lang=zh-CN] .page-home .fp-hero-headline {font-size: 60px;}}
+@media only screen and (max-width: 735px) {html[lang=zh-CN] .page-home .fp-hero-headline {font-size: 48px;}}
+
+
+html[lang=zh-CN] .page-home .typography-intro-text{font-size: 22px;}
+@media only screen and (max-width: 1068px) {html[lang=zh-CN] .page-home .typography-intro-text {font-size: 20px;}}
+@media only screen and (max-width: 735px) {html[lang=zh-CN] .page-home .typography-intro-text {font-size: 18px;}}
+
+html[lang=zh-CN] .page-home a.centeralign2{margin-left:-0.4em;}
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .page-home a.centeralign2{margin-left:0;} }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-CN] .page-home a.centeralign2{margin-left:0;} }
+
+
+html[lang=zh-CN] .page-home .fp-hero-headline .font-adjustment-1 {font-size:61px;vertical-align: 1px;}
+html[lang=zh-CN] .page-home .fp-hero-headline .font-adjustment-2 {font-size:61px;}
+
+@media only screen and (max-width: 1068px) {
+html[lang=zh-CN] .page-home .fp-hero-headline .font-adjustment-1 {font-size:54px;vertical-align: 1px;}
+html[lang=zh-CN] .page-home .fp-hero-headline .font-adjustment-2 {font-size:54px;}
+}
+
+@media only screen and (max-width: 735px) {
+html[lang=zh-CN] .page-home .fp-hero-headline .font-adjustment-1 {font-size:43px;vertical-align: 1px;}
+html[lang=zh-CN] .page-home .fp-hero-headline .font-adjustment-2 {font-size:43px;}
+}
+
+html[lang=zh-CN] .page-home .section-iphone-trade-up-tabs .fp-product-subheadline{font-size: 24px;}
+@media only screen and (max-width: 1068px) {
+html[lang=zh-CN] .page-home .section-iphone-trade-up-tabs .fp-product-subheadline{font-size: 20px;}}
+@media only screen and (max-width: 768px) {html[lang=zh-CN] .page-home .section-iphone-trade-up-tabs .fp-product-subheadline{font-size: 18px;}}
+
+/* page-compare */
+html[lang=zh-CN] .page-compare .section h3{font-size: 16px;}
+
+/* specs */
+html[lang=zh-CN] .page-specs .caption-copy {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+

@@ -1,0 +1,1388 @@
+body {
+	font-weight:200;
+	color: #333;
+	font-family: "微软雅黑";
+}
+.ipad_image {
+	background-color: #fafafa;
+}
+.pencil {
+	width:100%;
+	overflow-x: hidden;
+}
+.smart {
+	overflow-x: hidden;
+}
+a {
+	color:#0070c9;
+}
+.nav_ul li img{
+		display: inline-block;
+		height:44px;
+	}
+/*顶部导航栏区域*/
+.top_nav {
+	background: #444;
+	line-height: 1;
+	width: 100%;
+	right: 0;
+	height: 44px;
+}
+.top_nav_text{
+	color: #a8a8aa;
+	font-size: 12px;
+	display: block;
+	line-height: 44px;
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-align: right;
+	max-width: 976px;
+	margin: 0 auto;
+	padding:0px 16px;
+}
+/*主导航栏区域*/
+.pc_hidden {
+	background-color:#000;
+	position:absolute;
+	top:44px;
+	width:100%;
+	opacity:1;
+	display:none;
+}
+.pc_hidden ul {
+	width:100%;
+	list-style:none;
+    line-height: 20px;
+    padding-bottom: 20px;
+    margin-bottom:0;
+}
+.pc_hidden li {
+	height:30px;
+	line-height:30px;
+	width: 65%;
+    margin: 0 auto;
+    padding:2px 0;
+    border-bottom:1px solid #9e9e9e;
+}
+.pc_hidden ul li a {
+	font-size:12px;
+	color:#fff;
+	display: inline-block;
+    width: 100%;
+    font-weight:100;
+}
+
+#nav_header {
+	position: absolute;
+	z-index: 1;
+	width: 100% ;
+	height: 44px ;
+	background-color: rgba(0,0,0,1);
+	opacity: 0.8;
+	margin: 0 auto;
+}
+
+.nv_content{
+	margin: 0 auto;
+	width: 1000px;
+	padding: 0;
+}
+.navbar-brand {
+	position: relative;
+	z-index: 2;
+	float: right;
+	padding: 0px 10px;
+	height: 44px;
+}
+.nav_ul {
+	list-style: none;
+	cursor: default;
+	width: auto;
+	height: 44px;
+	margin: 0;
+	text-align: center;
+}
+#logo{
+	padding-left: 0px;
+}
+#bag{
+	padding-right: 0;
+}
+
+.nav_ul li {
+	height: 44px;
+}
+.nav_ul li a img:hover {
+	opacity: 0.7;
+}
+@media (max-width: 1000px) {
+	.nv_content{
+		margin: 0 auto;
+		width: 768px;
+	}
+	.top_nav_text{
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 767px) {
+	.nv_content,.top_nav_text{
+		width: 100%;
+	}
+
+	.nav_ul{
+		position: relative;
+		z-index: 1;
+		height: 44px;
+		text-align: center;
+		
+	}
+	.visible-xs {
+		display: block;
+		margin-bottom:0;
+	}
+	.nav_lleft {
+		position:relative;
+	}
+	.nav_lleft:hover .pc_hidden {
+		display:block !important;
+	}
+	.item {
+		display: none;
+	}
+    #navbar-toggle:checked ~ .item {
+    	display: block;
+    }
+
+	label[for=navbar-toggle] {
+		position: absolute;
+		z-index: 4;
+		padding: 12px 10px;
+		height: 44px;
+	}
+
+	label[for=navbar-toggle]::before {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 3px;
+		background-color: #fff;
+		box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+		z-index: 3
+	}
+}
+
+@media (min-width: 768px) {
+	.nav_ul li {
+		display: inline-block;
+		    width: 10%;
+	}
+	.visible-xs {
+		display: none;
+	}
+}
+/*次导航区域*/
+.sec_nav {
+	margin-top:44px;
+	background-color:#f4f4f4;
+}
+.sec_nav ul {
+	padding-left:0;
+	list-style:none;
+	text-align:center;
+	width:700px;
+	margin:0 auto;
+}
+.sec_nav ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.img_hidden {
+	width:200px;
+}
+
+.sec_nav ul li {
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.sec_nav1 {
+	padding-top:10px;
+	padding-bottom:16px;
+}
+@media screen and (max-width:690px) {
+	.sec_nav1 {overflow-x: scroll;
+	}
+}
+.sec_nav1 p {
+	margin:0;
+	font-size:13px;
+}
+.sec_nav .span_bg {
+	display:inline-block;
+	height:58px;
+	font-size:12px;
+}
+.new {
+	margin:0;
+	color:#6bf;
+	font-size:12px !important;
+}
+.sec_nav .span_bg1 {
+	width:38px;
+	background:url(../img/p1.svg) no-repeat center;
+}
+.sec_nav .span_bg2 {
+	width:26px;
+	background:url(../img/p2.svg) no-repeat center;
+}
+.sec_nav .span_bg3 {
+	width:21px;
+	background:url(../img/p3.svg) no-repeat center;
+}
+.sec_nav .span_bg4 {
+	width:21px;
+	background:url(../img/p4.svg) no-repeat center;
+}
+.sec_nav .span_bg5 {
+	width:40px;
+	background:url(../img/p5.svg) no-repeat center;
+}
+.sec_nav .span_bg6 {
+	width:33px;
+	background:url(../img/p6.svg) no-repeat center;
+}
+.sec_nav .span_bg7 {
+	width:45px;
+	background:url(../img/p7.svg) no-repeat center;
+}
+
+.sec_nav a {
+	color:#666;
+	font-size:13px;
+	font-weight:500;
+}
+.sec_nav a:hover {
+	color:#0070c9;
+	text-decoration:none;
+}
+@media screen and (min-width: 1070px) {
+	.p1 {
+		font-size: 54px;
+	}
+	.p2 {
+		font-size:33px;
+	}
+	.p3 {
+		font-size:17px;
+	}
+	.p4 {
+		font-size:38px;
+	}
+	.p5 {
+		font-size:16px;
+	}
+	.p6 {
+		font-size:16px;
+	}
+	.p7 {
+		font-size:20px;
+		font-weight:400;
+	}
+	.p8 {
+		font-size:16px;
+		font-weight:400;
+	}
+	/* ipad_pro 区域 */
+	.ipad_pro {
+		padding-top:10px;
+	}
+	.ipad_pro .p1 {
+		font-size: 70px;
+	    line-height: 1.15;
+	    letter-spacing: -0.024em;
+	    font-weight: 100;
+	}
+	.ipad_pro .p2 {
+		font-size: 37px;
+		line-height: 1.3;
+	}
+	.ipad_pro .p3 a {
+		font-size: 24px;
+		font-weight: 300;
+		color:#0070c9;
+	}
+	.ipad_pro .img {
+		width:100%;
+		height: 580px;
+		margin-top: 60px;
+		background: url(../img/ipad1.jpg) no-repeat center center;
+	}
+	/* pencil 区域 */
+	.pencil_container {
+		width:980px;
+		margin:0 auto;
+	}
+	.pencil .text {
+		width:300px;
+		text-align: center;
+	}
+	.text .p1 {
+	    line-height: 1.15;
+	    letter-spacing: -0.024em;
+	    font-weight: 300;
+	}
+	.text .p2 {
+		line-height: 1.3;
+	}
+	.text .p3 a {
+		font-weight: 300;
+		color:#0070c9;
+	}
+	.pencil .img {
+		width:1413px;
+		height:567px;
+		background: url(../img/ipad4.jpg) no-repeat;
+	}
+	/* smart区域 */
+	.smart_container {
+		width:980px;
+		margin:0 auto;
+		position: relative;
+	}
+	.smart .text {
+		width:400px;
+		text-align: center;
+		position: absolute;
+	    right: 0;
+	    top: 20%;
+	}
+	.smart .img {
+		position: relative;
+		margin-left: -350px;
+		width:988px;
+		height:846px;
+		background: url(../img/ipad7.png) no-repeat;
+	}
+	/* 百万款区域 */
+	.ipad_image_foot {
+		margin-top: 100px;
+		text-align: center;
+		height:319px;
+		background:url(../img/ipad10.jpg) center center;
+	}
+	.ipad_image_foot .content {
+		width:67%;
+		margin:0 auto;
+		position: relative;
+		top:-80px;
+	}
+	.ipad_image_foot .p5 {
+		margin:0 auto;
+		width:95%;
+		max-width: 685px;
+		color:#333;
+		font-weight: 500;
+		line-height: 2;
+	}
+	.ipad_image_foot a {
+		color:#0070c9;
+		font-weight: 500;
+	}
+	/* iPad Air 2 */
+	.air {
+		margin:50px auto;
+	}
+	.air_container {
+		width:980px;
+		margin:0 auto;
+		position: relative;
+	}
+	.air .text {
+		width:400px;
+		text-align: center;
+		position: absolute;
+	    left:40%;
+	    top: 10%;
+	    z-index: 999;
+	}
+	.air .img {
+		position: relative;
+		margin-left: -350px;
+		width:1103px;
+		height:714px;
+		background: url(../img/ipad12.jpg) no-repeat;
+	}
+	/* ipad mini4  区域 */
+	.mini {
+		margin-top:5%;
+	}
+	.mini .img {
+		height: 1011px;
+		margin-top: 60px;
+		background: url(../img/ipad15.jpg) no-repeat center center;
+	}
+	.mini .text {
+		width:400px;
+		margin:0 auto;
+		text-align: center;
+	}
+	/* 更个性 */
+	.per {
+		background-color: #f2f2f2;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.per_icon {
+		width:85px;
+		height:85px;
+		margin:0 auto;
+		background:url(../img/ipad19.png);
+	}
+	.per .p4 {
+		margin-top: 20px;
+	}
+	.per .p5 {
+		margin:0 auto;
+		color:#333;
+		font-weight: 500;
+		line-height: 3;
+	}
+	.per a {
+		color:#0070c9;
+		font-weight: 500;
+	}
+	.per_bg {
+		margin:0 auto;
+		max-width:1232px;
+		height:420px;
+		background:url(../img/ipad20.png) center center no-repeat;
+	}
+	/* 机型比较 */
+	.compare {
+		margin-top:5px;
+		padding-top:50px;
+		padding-bottom:50px;
+		background-color:#f2f2f2;
+	}
+	.compare_bg {
+		margin:50px auto;
+		max-width:1263px;
+		height:263px;
+		background:url(../img/ipad25.png);
+	}
+	/* 零售 送货区域 */
+	.taste {
+		width:980px;
+		padding:90px 0;
+		margin:0 auto;
+		display:flex;
+		text-align:center;
+	}
+	.taste .p8 {
+		width: 354px;
+		margin:0 auto;
+		margin-bottom:10px;
+	}
+	.taste_left {
+		width:50%;
+	}
+	.left_icon {
+		width:37px;
+		height:41px;
+		margin:0 auto;
+		background:url(../img/ipad28.png) no-repeat center center;
+	}
+	.taste_right {
+		width:50%;
+	}
+	.right_icon {
+		width:37px;
+		height:41px;
+		margin:0 auto;
+		background:url(../img/ipad29.png) no-repeat center center;
+	}
+	/* iPad 配件区域 */
+	.parts_area {
+		text-align:center;
+	}
+	.parts_area  .bg_img {
+		height:800px;
+		background:url(../img/ipad32.jpg) no-repeat center center;
+		position:relative;
+	}
+	.parts_area .content {
+		width:314px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-64px;
+		margin-left:-157px;
+	}
+	/* iPad 配件区域 */
+	.teach {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.teach  .bg_img {
+		height:494px;
+		background:url(../img/ipad35.jpg) no-repeat center center;
+		position:relative;
+	}
+	.teach .content {
+		width:320px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-80px;
+		margin-left:-160px;
+	}
+	.teach a {
+		color:white;
+	}
+	/* iPad 商务应用 */
+	.business {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.business  .bg_img {
+		height:600px;
+		background:url(../img/ipad38.jpg) no-repeat center center;
+		position:relative;
+	}
+	.business .content {
+		width:370px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-80px;
+		margin-left:-185px;
+	}
+	.business a {
+		color:white;
+	}
+	/* 免费讲座 */
+	.free {
+		margin-top:5px;
+		text-align:center;
+		color:white;
+	}
+	.free  .bg_img {
+		height:600px;
+		background:url(../img/ipad41.jpg) no-repeat center center;
+		position:relative;
+	}
+	.free .content {
+		width:418px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-114px;
+		margin-left:-209px;
+	}
+	.free a {
+		color:white;
+	}
+	.free .p5 {
+		line-height:2;
+	}
+}
+@media screen and (max-width: 1069px) and (min-width: 736px) {
+	.p1 {
+		font-size:42px;
+	}
+	.p2 {
+		font-size:25px;
+	}
+	.p3 {
+		font-size:16px;
+	}
+	.p4 {
+		font-size:28px;
+	}
+	.p5 .p6 .p8 {
+		font-size:15px;
+	}
+	.p7 {
+		font-size:18px;
+	}
+	/* ipad pro 区域 */f
+	.ipad_pro .p1 {
+		font-size: 54px;
+   	 	line-height: 1.0625;
+	    letter-spacing: -0.024em;
+	    font-weight: 300;
+	}
+	.ipad_pro .p2 {
+		font-size: 33px;
+    	line-height: 1.4;
+    	font-weight: 300;
+
+	}
+	.ipad_pro .p3 a {
+		font-size: 22px;
+		font-weight: 300;
+		color:#0070c9;
+	}
+	.ipad_pro .img {
+		width:100%;
+		height: 580px;
+		margin-top: 60px;
+		background: url(../img/ipad2.jpg) no-repeat center center;
+	}
+	/* pencil区域 */
+	.pencil_container {
+		width:692px;
+		margin:0 auto;
+		position: relative;
+	}
+	.pencil .text {
+		width:300px;
+		text-align: center;
+		position: absolute;
+	}
+	.text .p1 {
+	    line-height: 1.15;
+	    letter-spacing: -0.024em;
+	    font-weight: 300;
+	}
+	.text .p2 {
+		line-height: 1.3;
+		font-weight: 300;
+	}
+	.text .p3 a {
+		font-weight: 300;
+		color:#0070c9;
+	}
+	.pencil .img {
+		width:1182px;
+		height:600px;
+		background: url(../img/ipad5.jpg) no-repeat bottom;
+	}
+	/* smart区域 */
+	.smart_container {
+		position: relative;
+		width:692px;
+		margin:0 auto;
+	}
+	.smart .text {
+		width:325px;
+		text-align: center;
+		position: absolute;
+		right:0;
+	    top: 20%;
+	}
+	.smart .img {
+		margin-left: -350px;
+		position: relative;
+		width:827px;
+		height:708px;
+		background: url(../img/ipad8.png) no-repeat;
+	}
+	/* 百万款区域 */
+	.ipad_image_foot {
+		margin-top: 200px;
+		text-align: center;
+		height:223px;
+		background:url(../img/ipad10.jpg) center center;
+		background-size: auto 100%;
+	}
+	.ipad_image_foot .content {
+		width:67%;
+		margin:0 auto;
+		position: relative;
+		top:-130px;
+	}
+	.ipad_image_foot .p5 {
+		width:95%;
+		color:#333;
+		font-weight: 500;
+		line-height: 2;
+	}
+	.ipad_image_foot a {
+		color:#0070c9;
+		font-weight: 500;
+	}
+	/* iPad Air 2 */
+	.air_container {
+		position: relative;
+		width:692px;
+		margin:40px auto;
+	}
+	.air .text {
+		width:325px;
+		text-align: center;
+		position: absolute;
+		right:0;
+	    top: 10%;
+	    z-index: 999;
+	}
+	.air .img {
+		margin-left: -150px;
+		position: relative;
+		width:784px;
+		height:507px;
+		background: url(../img/ipad13.jpg) no-repeat;
+	}
+	/* ipad mini4  区域 */
+	.mini {
+		margin-top:5%;
+	}
+	.mini .img {
+		height: 718px;
+		margin-top: 60px;
+		background: url(../img/ipad17.jpg) no-repeat center center;
+	}
+	.mini .text {
+		width:400px;
+		margin:0 auto;
+		text-align: center;
+	}
+	/* 更个性 */
+	.per {
+		background-color: #f2f2f2;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.per_icon {
+		width:75px;
+		height:75px;
+		margin:0 auto;
+		background:url(../img/ipad22.png);
+	}
+	.per .p4 {
+		width:289px;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.per .p5 {
+		width:289px;
+		margin:0 auto;
+		color:#333;
+		font-weight: 500;
+		line-height: 2;
+		margin-bottom:15px;
+	}
+	.per a {
+		color:#0070c9;
+		font-weight: 500;
+	}
+	.per_bg {
+		margin:0 auto;
+		margin-top:20px;
+		height:534px;
+		background:url(../img/ipad21.png) center center no-repeat;
+	}
+	/* 机型比较 */
+	.compare {
+		margin-top:5px;
+		padding-top:50px;
+		background-color:#f2f2f2;
+	}
+	.compare_bg {
+		margin:50px auto;
+		max-width:890px;
+		height:185px;
+		background:url(../img/ipad26.png);
+	}
+	/* 零售 送货区域 */
+	.taste {
+		width:692px;
+		padding:50px 0;
+		margin:0 auto;
+		display:flex;
+		text-align:center;
+		font-weight:400;
+	}
+	.taste .p8 {
+		width: 354px;
+		margin:0 auto;
+		margin-bottom:10px;
+	}
+	.taste_left {
+		width:50%;
+	}
+	.left_icon {
+		width:30px;
+		height:34px;
+		margin:0 auto;
+		margin-bottom:20px;
+		background:url(../img/ipad30.png) no-repeat center center;
+	}
+	.taste_right {
+		width:50%;
+	}
+	.right_icon {
+		width:30px;
+		height:34px;
+		margin:0 auto;
+		margin-bottom:20px;
+		background:url(../img/ipad31.png) no-repeat center center;
+	}
+	/* iPad 配件区域 */
+	.parts_area {
+		text-align:center;
+	}
+	.parts_area  .bg_img {
+		height:450px;
+		background:url(../img/ipad33.jpg) no-repeat center center;
+		position:relative;
+	}
+	.parts_area .content {
+		width:314px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-55px;
+		margin-left:-157px;
+	}
+	/* iPad 配件区域 */
+	.teach {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.teach  .bg_img {
+		height:352px;
+		background:url(../img/ipad36.jpg) no-repeat center center;
+		position:relative;
+	}
+	.teach .content {
+		width:320px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-70px;
+		margin-left:-160px;
+	}
+	.teach a {
+		color:white;
+	}
+	/* 商务应用*/
+	.business {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.business  .bg_img {
+		height:600px;
+		background:url(../img/ipad39.jpg) no-repeat center center;
+		position:relative;
+	}
+	.business .content {
+		width:370px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-70px;
+		margin-left:-185px;
+	}
+	.business a {
+		color:white;
+	}
+	/* 免费讲座 */
+	.free {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.free  .bg_img {
+		height:600px;
+		background:url(../img/ipad41.jpg) no-repeat center center;
+		position:relative;
+	}
+	.free .content {
+		width:312px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-93px;
+		margin-left:-156px;
+	}
+	.free a {
+		color:white;
+	}
+	.free .p5 {
+		line-height:2;
+	}
+}
+@media screen and (max-width: 735px) {
+	.p1 {
+		font-size: 30px;
+	}
+	.p2 {
+		font-size:21px;
+	}
+	.p3 {
+		font-size:15px;
+	}
+	.p4 {
+		font-size:22px;
+	}
+	.p5 {
+		font-size:14px;
+	}
+	.p6 {
+		font-size:14px;
+	}
+	/* ipad pro 区域 */
+	.ipad_pro {
+		padding-top:2rem;
+	}
+	.ipad_pro .p1 {
+    	line-height: 1.07885;
+	    letter-spacing: -0.024em;
+	    font-weight: 300;
+	}
+	.ipad_pro .p2 {
+		font-size: 20px;
+    	line-height: 1.4;
+
+	}
+	.ipad_pro .p3 a {
+		font-size: 18px;
+		font-weight: 300;
+		color:#0070c9;
+	}
+	.ipad_pro .img {
+		width:100%;
+		height: 280px;
+		margin-top: 60px;
+		background: url(../img/ipad3.jpg) no-repeat center center;
+	}
+	/* pencil 区域 */
+	.pencil_container {
+		width: 100%;
+	}
+	.text {
+		width:300px;
+		text-align: center;
+	}
+	.pencil .text {
+		text-align: center;
+		margin:0 auto;
+	}
+	.text .p1 {
+	    line-height: 1.15;
+	    letter-spacing: -0.024em;
+	    font-weight: 300;
+	}
+	.text .p2 {
+		font-weight: 300;
+		line-height: 1.3;
+	}
+	.text .p3 a {
+		font-weight: 300;
+		color:#0070c9;
+	}
+	.pencil .img {
+		margin-top:5%;
+		margin-right:-40px;
+		width:100%;
+		height:278px;
+		background: url(../img/ipad6.jpg) no-repeat;
+	}
+	/* smart区域 */
+	.smart_container {
+		width:100%;
+	}
+	.smart .text {
+		margin:0 auto;
+		width:325px;
+		text-align: center;
+	}
+	.smart .img {
+		margin-top:5%;
+		margin-left: -40px;
+		min-width: 337px;
+		height:414px;
+		background: url(../img/ipad9.png) bottom no-repeat;
+	}
+	/* 百万款区域 */
+	.ipad_image_foot {
+		margin-top: 185px;
+		text-align: center;
+		height:250px;
+		background:url(../img/ipad11.jpg) center bottom no-repeat;
+	}
+	.ipad_image_foot .content {
+		width:67%;
+		margin:0 auto;
+		position: relative;
+		top:-130px;
+	}
+	.ipad_image_foot .p5 {
+		width:95%;
+		color:#333;
+		font-weight: 500;
+		line-height: 2;
+	}
+	.ipad_image_foot a {
+		color:#0070c9;
+		font-weight: 500;
+	}
+	/* air 区域 */
+	.air {
+		margin:20px auto;
+	}
+	.air_container {
+		width:100%;
+	}
+	.air .text {
+		margin: auto;
+		width:325px;
+		text-align: center;
+	}
+	.air .img {
+		margin-top:5%;
+		margin-left: -40px;
+		min-width: 337px;
+		height:303px;
+		background: url(../img/ipad14.jpg) bottom no-repeat;
+	}
+	/* ipad mini4  区域 */
+	.mini {
+		margin-top:5%;
+	}
+	.mini .img {
+		height: 345px;
+		margin-top: 5%;
+		background: url(../img/ipad16.jpg) no-repeat center center;
+	}
+	.mini .text {
+		text-align: center;
+		margin:0 auto;
+	}
+	/* 更个性 */
+	.per {
+		background-color: #f2f2f2;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.per_icon {
+		width:56px;
+		height:56px;
+		margin:0 auto;
+		background:url(../img/ipad24.png);
+	}
+	.per .p4 {
+		width:289px;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.per .p5 {
+		width:289px;
+		margin:0 auto;
+		color:#333;
+		font-weight: 500;
+		line-height: 2;
+		margin-bottom:15px;
+	}
+	.per a {
+		color:#0070c9;
+		font-weight: 500;
+	}
+	.per_bg {
+		margin:0 auto;
+		margin-top:20px;
+		height:350px;
+		background:url(../img/ipad23.png) center center no-repeat;
+	}
+	/* 机型比较 */
+	.compare {
+		margin-top:5px;
+		padding-top:30px;
+		background-color:#f2f2f2;
+	}
+	.compare_bg {
+		margin:30px auto;
+		height:323px;
+		background:url(../img/ipad27.png) no-repeat center center;
+	}
+	/* 零售 送货区域 */
+	.taste {
+		padding:50px 0;
+		margin:0 auto;
+		text-align:center;
+		font-weight:400;
+	}
+	.taste .p8 {
+		width: 270px;
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.left_icon {
+		width:30px;
+		height:34px;
+		margin:0 auto;
+		margin-bottom:20px;
+		background:url(../img/ipad30.png) no-repeat center center;
+	}
+	.taste_right {
+		width:50%;
+	}
+	.right_icon {
+		width:30px;
+		height:34px;
+		margin:0 auto;
+		margin-bottom:20px;
+		background:url(../img/ipad31.png) no-repeat center center;
+	}
+	/* iPad 配件区域 */
+	.parts_area {
+		text-align:center;
+	}
+	.parts_area  .bg_img {
+		height:450px;
+		background:url(../img/ipad34.jpg) no-repeat center center;
+		position:relative;
+	}
+	.parts_area .content {
+		width:314px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-50px;
+		margin-left:-157px;
+	}
+	/* iPad 配件区域 */
+	.teach {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.teach  .bg_img {
+		height:284px;
+		background:url(../img/ipad37.jpg) no-repeat center center;
+		position:relative;
+	}
+	.teach .content {
+		width:320px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-65px;
+		margin-left:-160px;
+	}
+	.teach a {
+		color:white;
+	}
+	/* 商务应用*/
+	.business {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.business  .bg_img {
+		height:360px;
+		background:url(../img/ipad40.jpg) no-repeat center center;
+		position:relative;
+	}
+	.business .content {
+		width: 322px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-93px;
+		margin-left:-161px;
+	}
+	.business a {
+		color:white;
+	}
+	/* 免费讲座 */
+	.free {
+		margin:5px 0;
+		text-align:center;
+		color:white;
+	}
+	.free  .bg_img {
+		height:360px;
+		background:url(../img/ipad42.jpg) no-repeat center center;
+		position:relative;
+	}
+	.free .content {
+		width:312px;
+		text-align:center;
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-93px;
+		margin-left:-156px;
+	}
+	.free a {
+		color:white;
+	}
+	.free .p5 {
+		line-height:2;
+	}
+}
+.foot_2 {
+	max-width:1024px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.foot_2 span {
+	position: relative;
+    top: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.foot_2 a img:hover {
+	opacity:1;
+}
+.foot_2 a img {
+	width: 18px;
+	opacity:0.5;
+}
+/* 下面链接区域*/
+@media screen and (max-width:768px) {
+	.select_big {
+		display:none;
+	}
+}
+@media screen and (min-width:769px) {
+	.select_small {
+		display:none;
+	}
+}
+.select {
+	background-color: #f2f2f2;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.select1 {
+	display:flex;
+	max-width:1024px;
+	margin:0 auto;
+}
+.select1_1 {
+	width:20%;
+}
+.select_small {
+	padding-top:20px;
+}
+h4>a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	color:#333 !important;
+	opacity:0.8;
+}
+h4>a:hover {
+	text-decoration:none;
+	opacity:1;
+}
+.select a {
+	color: #666;
+	font-size: 12px;
+}
+a:hover {
+	color:#333;
+}
+.select p {
+	margin-bottom:0;
+	line-height:22px;
+}
+.s_title {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.panel_select {
+	border:0;
+	border-bottom:1px solid #e3e3e3;
+	margin-top:0 !important;
+}
+.panel-body>p {
+	    line-height: 30px;
+}
+.group_select {
+	border:0;
+	margin-bottom:0;
+}
+.panel-collapse{
+	background-color: #f2f2f2;
+	padding-left:1px;
+}
+.panel-heading {
+	padding:0;
+	padding-left:1px;
+	height:38px;
+	background-color:#f2f2f2 !important;
+}
+h4 {
+	line-height: 37px;
+}
+.more {
+	max-width:1024px;
+	margin:30px auto;
+	margin-bottom:0;
+	padding-bottom:30px;
+}
+.more:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.more a {
+	color:#0070c9;
+}
+.more a:hover {
+	color:#333;
+}
+.more_1 a {
+	color:#666 !important;
+}
+.more_1 .col-md-4 a {
+	padding-left:6px;
+}
+.more_1 {
+	display:flex;
+}
+.more p {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom:5px;
+	margin-bottom:6px;
+}
+.more>p {
+	font-size:12px;
+}
+.c_2016 {
+	padding-right: 35px;
+	font-size:12px;
+	margin-top: 3px;
+}
+.c_20162 {
+	flex:1;
+	text-align:right!important;
+}
+@media screen and (max-width:768px) {
+	.more_1 {
+		display:block;
+	}
+	.c_20162 {
+		text-align:left !important;
+	}
+	.select {
+		width: 95%;
+    margin: 0 auto;
+	}
+}
+.select_all {
+	background-color:#f2f2f2;
+}
