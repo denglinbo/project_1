@@ -1,0 +1,195 @@
+body {
+	font-size:12px;
+	color:#9e9e9e;
+}
+/* 四张图片的链接区域*/
+.row_3 {
+	background-color:#f2f2f2;
+}
+.stp {
+	padding:0 !important;
+}
+.row_3 a {
+	display:inline-block;
+	height:200px;
+	width:100%;
+}
+@media screen and (min-width:1069px) {
+	.a1 {
+		background:url(../img/ios1.jpg) no-repeat center center;
+	}
+	.a2 {
+		background:url(../img/music1.jpg) no-repeat center center;
+	}
+	.a3 {
+		background:url(../img/watch1.jpg) no-repeat center center;
+	}
+	.a4 {
+		background:url(../img/iphone1.jpg) no-repeat center center;
+	}
+}
+@media screen and (max-width:735px) {
+	.a1 {
+		background:url(../img/ios2.jpg) no-repeat center center;
+	}
+	.a2 {
+		background:url(../img/music2.jpg) no-repeat center center;
+	}
+	.a3 {
+		background:url(../img/watch2.jpg) no-repeat center center;
+	}
+	.a4 {
+		background:url(../img/iphone2.jpg) no-repeat center center;
+	}
+}
+@media screen and (min-width:736px) and (max-width:1068px) {
+	.a1 {
+		background:url(../img/ios3.jpg) no-repeat center center;
+	}
+	.a2 {
+		background:url(../img/music3.jpg) no-repeat center center;
+	}
+	.a3 {
+		background:url(../img/watch3.jpg) no-repeat center center;
+	}
+	.a4 {
+		background:url(../img/iphone3.jpg) no-repeat center center;
+	}
+}
+/* 下面链接区域*/
+@media screen and (max-width:768px) {
+	.select_big {
+		display:none;
+	}
+}
+@media screen and (min-width:769px) {
+	.select_small {
+		display:none;
+	}
+}
+.select_all {
+	background-color:#f2f2f2;
+}
+.select {
+	background-color: #f2f2f2;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.select1 {
+	display:flex;
+	max-width:1024px;
+	margin:0 auto;
+}
+.select1_1 {
+	width:20%;
+}
+.select_small {
+	padding-top:20px;
+}
+h4>a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	color:#333 !important;
+	opacity:0.8;
+}
+h4>a:hover {
+	text-decoration:none;
+	opacity:1;
+}
+a {
+	color: #666;
+	font-size: 12px;
+}
+a:hover {
+	color:#333;
+}
+.select p {
+	margin-bottom:0;
+	line-height:22px;
+}
+.s_title {
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.panel_select {
+	border:0;
+	border-bottom:1px solid #e3e3e3;
+	margin-top:0 !important;
+}
+.panel-body>p {
+	    line-height: 30px;
+}
+.group_select {
+	border:0;
+	margin-bottom:0;
+}
+.panel-collapse{
+	background-color: #f2f2f2;
+	padding-left:1px;
+}
+.panel-heading {
+	padding:0;
+	padding-left:1px;
+	height:38px;
+	background-color:#f2f2f2 !important;
+}
+h4 {
+	line-height: 37px;
+}
+.more {
+	max-width:1024px;
+	margin:30px auto;
+	margin-bottom:0;
+	padding-bottom:30px;
+}
+.more:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.more a {
+	color:#0070c9;
+}
+.more a:hover {
+	color:#333;
+}
+.more_1 a {
+	color:#666 !important;
+}
+.more_1 .col-md-4 a {
+	padding-left:6px;
+}
+.more_1 {
+	display:flex;
+}
+.more p {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom:5px;
+	margin-bottom:6px;
+}
+.more>p {
+	font-size:12px;
+}
+.c_2016 {
+	padding-right: 35px;
+	font-size:12px;
+	margin-top: 3px;
+}
+.c_20162 {
+	flex:1;
+	text-align:right!important;
+}
+@media screen and (max-width:768px) {
+	.more_1 {
+		display:block;
+	}
+	.c_20162 {
+		text-align:left !important;
+	}
+	.select {
+		width: 95%;
+    margin: 0 auto;
+	}
+}

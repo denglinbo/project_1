@@ -45,25 +45,25 @@ body {
 	}
 
 	.series2_img {
-		background-image: url(../watch_image/背景1.jpg);
+		background-image: url(../watch_image/background1.jpg);
 	    background-size: 1800px 678px;
 		height: 678px;
 	}
 	/*watch_editin区域*/
 	.editin_img {
-		background-image: url(../watch_image/背景4.jpg);
+		background-image: url(../watch_image/background4.jpg);
 		background-size: auto 500px;
 		height: 500px;
 	}
 	/*背景Watch Series1区域*/
 	.series1_img {
-		background-image: url(../watch_image/背景5.jpg);
+		background-image: url(../watch_image/background5.jpg);
 		background-size: auto 500px;
 		height: 500px;
 	}
 	/*互动式表廊区域*/
 	.watch1_img {
-	    background-image: url(../watch_image/背景6.jpg);
+	    background-image: url(../watch_image/background6.jpg);
 	    background-size: auto 500px;
 		height: 500px;
 	}
@@ -76,14 +76,14 @@ body {
 	}
 	/*两张造型图片区域*/
 	.stlye_img1 {
-		background-image: url(../watch_image/背景7.jpg);
+		background-image: url(../watch_image/background7.jpg);
 	}
 	.stlye_img2 {
-		background-image: url(../watch_image/背景8.jpg);
+		background-image: url(../watch_image/background8.jpg);
 	}
 	/*表款比较区域*/
 	.watch2_img {
-	    background-image: url(../watch_image/背景9.jpg);
+	    background-image: url(../watch_image/background9.jpg);
 	    height: 500px;
 	}
 }
@@ -94,34 +94,34 @@ body {
 	    overflow-x: auto;
 	}
 	.series2_img {
-		background-image: url(../watch_image/背景1_小.jpg);
+		background-image: url(../watch_image/background1_small.jpg);
 		height:900px;
 	}
 	/*watch_editin区域*/
 	.editin_img {
-		background-image: url(../watch_image/背景4_小.jpg);
+		background-image: url(../watch_image/background4_small.jpg);
 		height: 545px;
 	}
 	/*背景Watch Series1区域*/
 	.series1_img {
-		background-image: url(../watch_image/背景5_小.jpg);
+		background-image: url(../watch_image/background5_small.jpg);
 		height: 545px;
 	}
 	/*互动式表廊区域*/
 	.watch1_img {
-	    background-image: url(../watch_image/背景6_小.jpg);
+	    background-image: url(../watch_image/background6_small.jpg);
 	    height: 300px;
 	}
 	/*两张造型图片区域*/
 	.stlye_img1 {
-		background-image: url(../watch_image/背景7_小.jpg);
+		background-image: url(../watch_image/background7_small.jpg);
 	}
 	.stlye_img2 {
-		background-image: url(../watch_image/背景8_小.jpg);
+		background-image: url(../watch_image/background8_small.jpg);
 	}
 	/*表款比较区域*/
 	.watch2_img {
-	    background-image: url(../watch_image/背景9_小.jpg);
+	    background-image: url(../watch_image/background9_small.jpg);
 	    background-size: auto 500px;
 		height: 500px;
 	}
@@ -291,12 +291,12 @@ body {
 }
 
 .nike_img {	
-	background-image: url(../watch_image/背景2.jpg);
+	background-image: url(../watch_image/background2.jpg);
 	background-size: 452px 433px;
 	height: 452px;
 }
 .hermes_img {
-	background-image: url(../watch_image/背景3.jpg);
+	background-image: url(../watch_image/background3.jpg);
 	background-size: 334px 400px;
 	height: 400px;
 }
@@ -351,10 +351,10 @@ body {
 	height: 740px;
 }
 .watchO_img1 {
-	background-image: url(../watch_image/背景10.jpg);
+	background-image: url(../watch_image/background10.jpg);
 }
 .watchO_img2 {
-	background-image: url(../watch_image/背景11.jpg);
+	background-image: url(../watch_image/background11.jpg);
 }
 
 /*免费送货区域*/
